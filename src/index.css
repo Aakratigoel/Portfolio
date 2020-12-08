@@ -1,13 +1,239 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color:black;
+  overflow-x: hidden;
+}
+#mainDiv{
+  height:870px;
+  /* width: 100%; */
+  overflow: auto;
+}
+.pic{
+  margin-top:13px;
+  margin-bottom:10px;
+  width: 130px;
+  height:130px;
+}
+#profilePicture{
+  padding-top:10px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 40px;
+  position: absolute;
+  left:5%;
+  margin-top:3.5%;
+  background-color: white;
+  width:220px;
+  height:220px;
+  text-align: center;
+}
+#clickDiv{
+  display: grid;
+  grid-template-columns: 90px 300px 150px;
+  grid-template-rows:115px;
+  grid-gap:5px;
+}
+#navDiv{
+  position:fixed;
+  display: grid;
+  grid-template-columns: 100px 100px 135px 120px;
+  grid-template-rows:115px;
+  grid-gap:5px;
+  color:white;
+}
+.navDivitem{
+  padding-top:0px;
+  padding-bottom: 30px;
+  padding-left:5px;
+  padding-right:5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:55%;
+  color:white;
+}
+#clickMe{
+  color:white;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 120%;
+  border : 1px outset white;
+  box-shadow: 5px 10px white;
+  padding-top:30px;
+  padding-bottom: 30px;
+  padding-left:5px;
+  padding-right:5px;
+}
+#leftDiv{
+  position: absolute;
+  width:47%;
+  height:95%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:135px 135px 135px 135px 135px;
+  grid-gap: 20px;
+  padding: 10px;
+  /* border:1px solid white;
+   background-color: #2196F3;  */
+}
+#leftDiv > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+#rightDiv{
+  display: grid;
+  grid-template-columns: 155px 155px 155px 155px;
+  grid-template-rows:175px 175px 175px 175px;
+  grid-gap: 20px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  position: absolute;
+width:50%;
+height:95%;
+left:48%;
+/* border:1px solid white; */
+z-index: -1;
+}
+#rightDiv > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/* @keyframes swinging{
+  0%{transform: rotate(10deg);}
+  50%{transform: rotate(-5deg)}
+  100%{transform: rotate(10deg);}
+} */
+.paintingpictures{
+  text-align: center;
+  width: 155px;
+  height:155px;
+  /* padding: 10px 10px 10px 10px; */
+  /* border: 1px solid white; */
+  background-color: white;
+  /* box-shadow: 10px 10px 5px darkbrown; */
+  z-index:-1;
+  /* animation: swinging 3.5s ease-in-out forwards infinite; */
+  /* transform-origin: "bottom right"; */
 }
 
+/* .introDiv{
+  width:650px;
+  height:200px;
+  /* border-top: 5px solid rgba(235, 20, 185, 0.5); */
+  /* position: absolute;
+  top:350px;
+  left:320px;
+  box-shadow: 5px 10px 18px rgb(4, 108, 116);
+  text-align: center;
+  padding:3%;
+} */ 
+/* #designation{
+font-family: 'Bradley Hand';
+font-size: 60px;
+font-weight: bold;
+color:black;
+} */
+#name{
+  font-family: 'Bradley Hand';
+font-weight: bold;
+color:black;
+font-variant: small-caps;
+margin-top:0px;
+margin-bottom:0px;
+text-align: center;
+font-size:20px;
+}
+#secondDiv{
+    height: 725px;
+    /* width: 100%; */
+    background-color:black;
+    /*border:3px solid yellow; */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:20px 230px 50px 250px 115px;
+
+}
+a{
+  text-decoration: none;
+}
+#profileDiv{
+  display: grid;
+    grid-template-rows:230px;
+    text-align: center;
+}
+#paraDiv{
+  display: grid;
+  grid-template-columns: 430px 650px 200px;
+    grid-template-rows:390px;
+    text-align: center;
+   
+}
+#paracontent{
+  color:white;
+  text-align: center;
+  margin:auto;
+  font-size: larger;
+  line-height: 1.7;
+}
+#pictureContainer{
+  width:180px;
+  height: 170px;
+  background:white;
+  margin:auto;
+  padding:10px 10px 40px 10px;
+}
+#pp{
+  width:180px;
+  height:170px;
+  margin-bottom:8px;
+}
+#namepara{
+  margin:0px;
+  font-size: larger;
+  font-variant: small-caps;
+  font-family: Bradley Hand;
+  color:black;
+}
+#contactdiv{
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  text-align: center;
+  grid-template-rows:80px;
+}
+#logodiv{
+  text-align: center;
+}
+.logoimg{
+  margin-top:35px;
+  margin-right:15px;
+}
+#l1{
+  width:40px;
+  height:40px;
+}
+#l2{
+  width:40px;
+  height:40px;
+}
+#l3{
+  width:40px;
+  height:40px;
+}
+/* #entryButton{
+  padding:10px;
+  background-color: rgba(235, 26, 71, 0.486);
+ color:white;
+  height:50px;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size:40px;
+  border-radius:10px;
+} */
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
+
+  /* background-size: cover;
+  backdrop-filter: blur(20px); */
