@@ -13,7 +13,12 @@ import picture10 from './images/water.jpg';
 import logo1 from "./images/linkedin.png";
 import logo2 from "./images/insta.png";
 import logo3 from "./images/github.png";
+import project1 from "./images/shiftScheduler.png";
+import project2 from "./images/traveltalk.png";
+import project3 from "./images/hangman.png";
+import project4 from "./images/game_of_memory.png"
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -25,10 +30,10 @@ class HomePage extends React.Component {
       <div id="mainDiv">
         <div id="leftDiv">
           <div className="item1" id="navDiv">
-          <a href="#mainDiv"> <div className="navDivitem">HOME</div></a>
-          <a href="#secondDiv"><div className="navDivitem">ABOUT</div></a> 
-          <a href="#secondDiv"> <div className="navDivitem">PORTFOLIO</div></a>
-          <a href="#secondDiv"><div className="navDivitem">CONTACT</div></a>
+            <a href="#mainDiv"> <div className="navDivitem">HOME</div></a>
+            <a href="#secondDiv"><div className="navDivitem">ABOUT</div></a>
+            <a href="#portfoliodiv"> <div className="navDivitem">PORTFOLIO</div></a>
+            <a href="#secondDiv"><div className="navDivitem">CONTACT</div></a>
           </div>
           <div className="item2"></div>
           <div className="item3">
@@ -112,7 +117,7 @@ class HomePage extends React.Component {
 
 
 }
-class Portfolio extends React.Component {
+class About extends React.Component {
   render() {
     return (
       <div id="secondDiv">
@@ -123,12 +128,12 @@ class Portfolio extends React.Component {
             <p id="namepara">AAKRATI GOEL</p>
           </div>
         </div>
-        <div className="item3" id="contactdiv"> 
+        <div className="item3" id="contactdiv">
           <div className="item1"></div>
           <div className="item2" id="logodiv">
-          <a href="https://www.linkedin.com/in/aakrati-goel-435094200/"><img className="logoimg" id="l1"src={logo1} /></a>
-          <a href="https://www.instagram.com/goelaakrati/"><img className="logoimg" id="l2" src={logo2} /></a>
-          <a href="https://github.com/Aakratigoel"><img  className="logoimg"id="l3"src={logo3} /></a>
+            <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_bkank"><img className="logoimg" id="l1" src={logo1} /></a>
+            <a href="https://www.instagram.com/goelaakrati/" target="_bkank"><img className="logoimg" id="l2" src={logo2} /></a>
+            <a href="https://github.com/Aakratigoel" target="_bkank"><img className="logoimg" id="l3" src={logo3} /></a>
           </div>
           <div className="item3"></div>
         </div>
@@ -139,7 +144,7 @@ class Portfolio extends React.Component {
               I am a creative Web Developer with an IT experience of 3 years. I have worked as a Project Engineer back in India.After coming to US,
               I pursued diploma in Full Stack Web Development from University Of Washington and now I am a Web Development Instructor at Nucamp Coding Bootcamp.
               I believe with the blend of Front End Technologies and my creativity, I can develop great websites with modern designs. I have worked on Front End Technologies like: HTML, CSS, JavaScript, BootStrap, jQuery, Node.js, React.js.
-              I have a good knowledge of Oracle Database and SQL. 
+              I have a good knowledge of Oracle Database and SQL.
               With the passion for coding , I also like to paint. On the homepage above, you can see the images of my paintings.
             </p>
           </div>
@@ -149,9 +154,63 @@ class Portfolio extends React.Component {
     );
   }
 }
+
+class Portfolio extends React.Component {
+  render() {
+    return (
+      <div id="portfoliodiv">
+        <div className="item1">
+        </div>
+        <div className="item2" id="portfolioheading">
+          <h1>PORTFOLIO</h1>
+        </div>
+        <div className="item3" id="firstrowofproject">
+          <div className="col_3_1"></div>
+          <div className="col_3_2" className="projectimagecontainer">
+              <img className="projectimage" src={project1} />
+              <p class="projectname">SHIFT SCHEDULER</p>
+          </div>
+          <div className="col_3_3" className="projectimagecontainer">
+              <img className="projectimage" src={project2} />
+              <p class="projectname">TRAVEL TALK</p>
+          </div>
+          <div className="col_3_4" className="projectimagecontainer">
+              <img className="projectimage" src={project3} />
+              <p className="projectname">HANGMAN</p>
+          </div>
+        </div>
+        <div className="item4" id="secondrowofproject">
+          <div className="col_4_1">
+
+          </div>
+          <div className="col_4_2">
+            <div className="projectimagecontainer">
+              <img className="projectimage" src={project4} />
+              <p class="projectname">GAME_OF_MEMORY</p>
+            </div>
+          </div>
+          <div className="col_4_3">
+            <div className="projectimagecontainer">
+              <img className="projectimage" src={project1} />
+              <p class="projectname">TRAVEL TALK</p>
+            </div>
+          </div>
+          <div className="col_4_4"></div>
+        </div>
+      </div>
+    );
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <HomePage />
+    <About />
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <Portfolio />
   </React.StrictMode>,
   document.getElementById('root')

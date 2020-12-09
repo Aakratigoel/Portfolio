@@ -150,7 +150,7 @@ font-size:20px;
     /*border:3px solid yellow; */
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows:20px 230px 50px 250px 115px;
+    grid-template-rows:100px 230px 50px 250px 115px;
 
 }
 a{
@@ -218,6 +218,47 @@ a{
 #l3{
   width:40px;
   height:40px;
+}
+
+#portfoliodiv{
+  height: 725px;
+  background-color: black;
+  display: grid;
+  grid-template-rows:10px 110px 220px 220px;
+}
+#portfolioheading{
+text-align:center;
+color:white;
+}
+#firstrowofproject{
+  display: grid;
+  grid-template-columns: 180px 400px 400px 250px;
+  grid-template-rows: auto;
+}
+#secondrowofproject{
+  display: grid;
+  grid-template-columns: 380px 400px 400px 250px;
+ height: 270px;
+ margin-top:100px;
+}
+.projectimagecontainer{
+  width:250px;
+  height:220px;
+  background-color: white;
+  padding:10px 10px 40px 10px;
+}
+.projectimage{
+  width:250px;
+  height: 220px;
+}
+.projectname{
+  text-align: center;
+  margin:4px 0px 0px 0px;
+  font-size: larger;
+  font-variant: small-caps;
+  font-family: Bradley Hand;
+  color:black;
+  
 }
 /* #entryButton{
   padding:10px;
