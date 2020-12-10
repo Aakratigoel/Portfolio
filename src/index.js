@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from './images/aakrati.jpeg';
+import picture from './images/aakrati.jpg';
 import picture1 from './images/boat.jpg';
 import picture2 from './images/buddha.jpg';
 import picture3 from './images/city.jpg';
