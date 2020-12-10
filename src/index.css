@@ -245,7 +245,7 @@ a{
   height: 725px;
   background-color: black;
   display: grid;
-  grid-template-rows:10px 110px 220px 220px;
+  grid-template-rows:10px 100px 220px 220px;
 }
 #portfolioheading{
 text-align:center;

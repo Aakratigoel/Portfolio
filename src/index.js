@@ -216,7 +216,6 @@ ReactDOM.render(
     <br></br>
     <br></br>
     <br></br>
-    <br></br>
     <Portfolio />
   </React.StrictMode>,
   document.getElementById('root')
