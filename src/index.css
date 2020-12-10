@@ -150,8 +150,13 @@ font-size:20px;
     /*border:3px solid yellow; */
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows:100px 230px 50px 250px 115px;
-
+    grid-template-rows:150px 230px 50px 250px 115px;
+}
+#aboutdiv{
+  color:white;
+  text-align: center;
+  padding:50px;
+  font-family: Bradley Hand;
 }
 a{
   text-decoration: none;

@@ -121,7 +121,9 @@ class About extends React.Component {
   render() {
     return (
       <div id="secondDiv">
-        <div className="item1"></div>
+        <div className="item1" id="aboutdiv">
+           <h1> A LITTLE ABOUT ME</h1>
+        </div>
         <div className="item2" id="profileDiv">
           <div id="pictureContainer">
             <img id="pp" src={picture} />
@@ -168,11 +170,11 @@ class Portfolio extends React.Component {
           <div className="col_3_1"></div>
           <div className="col_3_2" className="projectimagecontainer">
               <img className="projectimage" src={project1} />
-              <p class="projectname">SHIFT SCHEDULER</p>
+              <p className="projectname">SHIFT SCHEDULER</p>
           </div>
           <div className="col_3_3" className="projectimagecontainer">
               <img className="projectimage" src={project2} />
-              <p class="projectname">TRAVEL TALK</p>
+              <p className="projectname">TRAVEL TALK</p>
           </div>
           <div className="col_3_4" className="projectimagecontainer">
               <img className="projectimage" src={project3} />
@@ -186,13 +188,13 @@ class Portfolio extends React.Component {
           <div className="col_4_2">
             <div className="projectimagecontainer">
               <img className="projectimage" src={project4} />
-              <p class="projectname">GAME_OF_MEMORY</p>
+              <p className="projectname">GAME_OF_MEMORY</p>
             </div>
           </div>
           <div className="col_4_3">
             <div className="projectimagecontainer">
               <img className="projectimage" src={project1} />
-              <p class="projectname">TRAVEL TALK</p>
+              <p className="projectname">TRAVEL TALK</p>
             </div>
           </div>
           <div className="col_4_4"></div>
@@ -206,6 +208,8 @@ ReactDOM.render(
   <React.StrictMode>
     <HomePage />
     <About />
+    <br></br>
+    <br></br>
     <br></br>
     <br></br>
     <br></br>
