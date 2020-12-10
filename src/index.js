@@ -41,7 +41,7 @@ class HomePage extends React.Component {
           <div className="item4">
             <div id="clickDiv">
               <div className="item1"></div>
-              <div className="item2" id="clickMe">COME ON IN !</div>
+              <div className="item2"id="comeonindiv"><a href="#secondDiv" id="clickMe">COME ON IN !</a></div>
               <div className="item3" ></div>
             </div>
           </div>
@@ -122,7 +122,7 @@ class About extends React.Component {
     return (
       <div id="secondDiv">
         <div className="item1" id="aboutdiv">
-           <h1> A LITTLE ABOUT ME</h1>
+           <h1>ABOUT ME</h1>
         </div>
         <div className="item2" id="profileDiv">
           <div id="pictureContainer">
@@ -143,7 +143,7 @@ class About extends React.Component {
           <div className="item1"></div>
           <div className="item2" id="paracontent">
             <p>
-              I am a creative Web Developer with an IT experience of 3 years. I have worked as a Project Engineer back in India.After coming to US,
+              I am a creative Web Developer with an IT experience of 3 years. I live in Seattle, WA.I have worked as a Project Engineer back in India.After coming to US,
               I pursued diploma in Full Stack Web Development from University Of Washington and now I am a Web Development Instructor at Nucamp Coding Bootcamp.
               I believe with the blend of Front End Technologies and my creativity, I can develop great websites with modern designs. I have worked on Front End Technologies like: HTML, CSS, JavaScript, BootStrap, jQuery, Node.js, React.js.
               I have a good knowledge of Oracle Database and SQL.
