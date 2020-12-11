@@ -215,6 +215,7 @@ a{
   color:black;
 }
 #contactdiv{
+  margin-top:20px;
   display: grid;
   grid-template-columns: 500px 500px 500px;
   text-align: center;

@@ -133,9 +133,9 @@ class About extends React.Component {
         <div className="item3" id="contactdiv">
           <div className="item1"></div>
           <div className="item2" className="logodiv">
-            <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_bkank"><img className="logoimg" className="l1" src={logo1} /></a>
-            <a href="https://www.instagram.com/goelaakrati/" target="_bkank"><img className="logoimg" className="l2" src={logo2} /></a>
-            <a href="https://github.com/Aakratigoel" target="_bkank"><img className="logoimg" className="l3" src={logo3} /></a>
+            <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_blank"><img className="logoimg" className="l1 cl1" src={logo1} /></a>
+            <a href="https://www.instagram.com/goelaakrati/" target="_blank"><img className="logoimg" className="l2 cl1" src={logo2} /></a>
+            <a href="https://github.com/Aakratigoel" target="_blank"><img className="logoimg" className="l3" src={logo3} /></a>
           </div>
           <div className="item3"></div>
         </div>
@@ -222,9 +222,9 @@ class Contact extends React.Component {
               <br></br>
               <br></br>
               <div id="contactlogo">
-                <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_bkank"><img className="logoimg" className="l1 cl1"  src={logo1} /></a>
-                <a href="https://www.instagram.com/goelaakrati/" target="_bkank"><img className="logoimg" className="l2 cl1" src={logo2} /></a>
-                <a href="https://github.com/Aakratigoel" target="_bkank"><img className="logoimg" className="l3" src={logo3} /></a>
+                <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_blank"><img className="logoimg" className="l1 cl1"  src={logo1} /></a>
+                <a href="https://www.instagram.com/goelaakrati/" target="_blank"><img className="logoimg" className="l2 cl1" src={logo2} /></a>
+                <a href="https://github.com/Aakratigoel" target="_blank"><img className="logoimg" className="l3" src={logo3} /></a>
               </div>
             </div>
             <div id="contactdiv2"></div>
