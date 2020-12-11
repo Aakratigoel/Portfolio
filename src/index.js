@@ -25,9 +25,17 @@ import reportWebVitals from './reportWebVitals';
 // import { ReactComponent } from '*.svg';
 
 class HomePage extends React.Component {
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+  handleScroll = () => {
+    if (window.scrollY > 20) {
+      document.getElementById("navDiv").style.background="black";
+    } 
+  };
   render() {
     return (
-      <div id="mainDiv">
+      <div id="mainDiv" onScroll="this.handleScroll">
         <div id="leftDiv">
           <div className="item1" id="navDiv">
             <a href="#mainDiv"> <div className="navDivitem">HOME</div></a>
