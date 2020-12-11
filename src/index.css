@@ -41,7 +41,7 @@ body{
   position:fixed;
   display: grid;
   grid-template-columns: 100px 100px 135px 120px;
-  grid-template-rows:115px;
+  grid-template-rows:50px;
   grid-gap:5px;
   color:white;
 }
