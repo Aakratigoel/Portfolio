@@ -220,22 +220,22 @@ a{
   text-align: center;
   grid-template-rows:80px;
 }
-#logodiv{
+.logodiv{
   text-align: center;
 }
 .logoimg{
   margin-top:35px;
   margin-right:15px;
 }
-#l1{
+.l1{
   width:40px;
   height:40px;
 }
-#l2{
+.l2{
   width:40px;
   height:40px;
 }
-#l3{
+.l3{
   width:40px;
   height:40px; 
 }
@@ -301,8 +301,18 @@ color:white;
   text-align:center;
 color:white;
 }
+#contactdiv1{
+  padding-top:25%;
+}
 #contactdiv2{
   background-color: yellow;
+}
+.contactparagraph{
+  font-variant: small-caps;
+  font-size:x-large;
+}
+.cl1{
+  margin-right:10px;
 }
 /* #entryButton{
   padding:10px;

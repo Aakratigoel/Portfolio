@@ -41,7 +41,7 @@ class HomePage extends React.Component {
           <div className="item4">
             <div id="clickDiv">
               <div className="item1"></div>
-              <div className="item2"id="comeonindiv"><a href="#secondDiv" id="clickMe">COME ON IN !</a></div>
+              <div className="item2" id="comeonindiv"><a href="#secondDiv" id="clickMe">COME ON IN !</a></div>
               <div className="item3" ></div>
             </div>
           </div>
@@ -122,7 +122,7 @@ class About extends React.Component {
     return (
       <div id="secondDiv">
         <div className="item1" id="aboutdiv">
-           <h1>ABOUT ME</h1>
+          <h1>ABOUT ME</h1>
         </div>
         <div className="item2" id="profileDiv">
           <div id="pictureContainer">
@@ -132,10 +132,10 @@ class About extends React.Component {
         </div>
         <div className="item3" id="contactdiv">
           <div className="item1"></div>
-          <div className="item2" id="logodiv">
-            <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_bkank"><img className="logoimg" id="l1" src={logo1} /></a>
-            <a href="https://www.instagram.com/goelaakrati/" target="_bkank"><img className="logoimg" id="l2" src={logo2} /></a>
-            <a href="https://github.com/Aakratigoel" target="_bkank"><img className="logoimg" id="l3" src={logo3} /></a>
+          <div className="item2" className="logodiv">
+            <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_bkank"><img className="logoimg" className="l1" src={logo1} /></a>
+            <a href="https://www.instagram.com/goelaakrati/" target="_bkank"><img className="logoimg" className="l2" src={logo2} /></a>
+            <a href="https://github.com/Aakratigoel" target="_bkank"><img className="logoimg" className="l3" src={logo3} /></a>
           </div>
           <div className="item3"></div>
         </div>
@@ -169,16 +169,16 @@ class Portfolio extends React.Component {
         <div className="item3" id="firstrowofproject">
           <div className="col_3_1"></div>
           <div className="col_3_2" className="projectimagecontainer">
-              <img className="projectimage" src={project1} />
-              <p className="projectname">SHIFT SCHEDULER</p>
+            <img className="projectimage" src={project1} />
+            <p className="projectname">SHIFT SCHEDULER</p>
           </div>
           <div className="col_3_3" className="projectimagecontainer">
-              <img className="projectimage" src={project2} />
-              <p className="projectname">TRAVEL TALK</p>
+            <img className="projectimage" src={project2} />
+            <p className="projectname">TRAVEL TALK</p>
           </div>
           <div className="col_3_4" className="projectimagecontainer">
-              <img className="projectimage" src={project3} />
-              <p className="projectname">HANGMAN</p>
+            <img className="projectimage" src={project3} />
+            <p className="projectname">HANGMAN</p>
           </div>
         </div>
         <div className="item4" id="secondrowofproject">
@@ -203,23 +203,35 @@ class Portfolio extends React.Component {
     );
   }
 }
-class Contact extends React.Component{
-  render()
-  {
-    return(
+class Contact extends React.Component {
+  render() {
+    return (
       <div id="contactPage">
-          <div id="aboutheading">
+        <div id="aboutheading">
           <h1>CONTACT</h1>
-          </div>
-          <div id="contactinfo">
-              <div></div>
-              <div id="contactdetails">
-                <div id="contactdiv1"></div>
-                <div id="contactdiv2"></div>
+        </div>
+        <div id="contactinfo">
+          <div></div>
+          <div id="contactdetails">
+            <div id="contactdiv1">
+              <p className="contactparagraph">Aakrati Goel</p>
+              <br></br>
+              <p className="contactparagraph">aakratigoel@gmail.com</p>
+              <br></br>
+              <p className="contactparagraph">Seattle, WA</p>
+              <br></br>
+              <br></br>
+              <div id="contactlogo">
+                <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_bkank"><img className="logoimg" className="l1 cl1"  src={logo1} /></a>
+                <a href="https://www.instagram.com/goelaakrati/" target="_bkank"><img className="logoimg" className="l2 cl1" src={logo2} /></a>
+                <a href="https://github.com/Aakratigoel" target="_bkank"><img className="logoimg" className="l3" src={logo3} /></a>
               </div>
-              <div></div>
+            </div>
+            <div id="contactdiv2"></div>
           </div>
           <div></div>
+        </div>
+        <div></div>
       </div>
 
     );
@@ -242,7 +254,7 @@ ReactDOM.render(
     <br></br>
     <br></br>
     <br></br>
-    <Contact/>
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
