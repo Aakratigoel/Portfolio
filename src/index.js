@@ -203,7 +203,28 @@ class Portfolio extends React.Component {
     );
   }
 }
+class Contact extends React.Component{
+  render()
+  {
+    return(
+      <div id="contactPage">
+          <div id="aboutheading">
+          <h1>CONTACT</h1>
+          </div>
+          <div id="contactinfo">
+              <div></div>
+              <div id="contactdetails">
+                <div id="contactdiv1"></div>
+                <div id="contactdiv2"></div>
+              </div>
+              <div></div>
+          </div>
+          <div></div>
+      </div>
 
+    );
+  }
+}
 ReactDOM.render(
   <React.StrictMode>
     <HomePage />
@@ -217,6 +238,11 @@ ReactDOM.render(
     <br></br>
     <br></br>
     <Portfolio />
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <Contact/>
   </React.StrictMode>,
   document.getElementById('root')
 );
