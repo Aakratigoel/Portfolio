@@ -178,22 +178,23 @@ a{
 }
 #profileDiv{
   display: grid;
-    grid-template-rows:230px;
-    text-align: center;
+  grid-template-rows:230px;
+  text-align: center;
 }
 #paraDiv{
   display: grid;
-  grid-template-columns: 430px 650px 200px;
+  /* grid-template-columns: 430px 650px 200px; */
     grid-template-rows:390px;
     text-align: center;
    
 }
 #paracontent{
   color:white;
-  text-align: center;
+  /* text-align: center; */
   margin:auto;
   font-size: larger;
   line-height: 1.7;
+  width:45%;
 }
 #pictureContainer{
   width:180px;
