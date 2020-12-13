@@ -30,8 +30,8 @@ class HomePage extends React.Component {
   }
   handleScroll = () => {
     if (window.scrollY > 20) {
-      document.getElementById("navDiv").style.background="black";
-    } 
+      document.getElementById("navDiv").style.background = "black";
+    }
   };
   render() {
     return (
@@ -148,12 +148,12 @@ class About extends React.Component {
           <div className="item3"></div>
         </div>
         <div className="item4" id="paraDiv">
-            <p id="paracontent">
-              I am a creative Web Developer with an IT experience of 3 years. I live in Seattle, WA.I have worked as a Project Engineer back in India.After coming to US,
-              I pursued diploma in Full Stack Web Development from University Of Washington and now I am a Web Development Instructor at Nucamp Coding Bootcamp.
-              I believe with the blend of Front End Technologies and my creativity, I can develop great websites with modern designs. I have worked on Front End Technologies like: HTML, CSS, JavaScript, BootStrap, jQuery, Node.js, React.js.
-              I have a good knowledge of Oracle Database and SQL.
-              With the passion for coding , I also like to paint. On the homepage above, you can see the images of my paintings.
+          <p id="paracontent">
+            I am a creative Web Developer with an IT experience of 3 years. I live in Seattle, WA.I have worked as a Project Engineer back in India.After coming to US,
+            I pursued diploma in Full Stack Web Development from University Of Washington and now I am a Web Development Instructor at Nucamp Coding Bootcamp.
+            I believe with the blend of Front End Technologies and my creativity, I can develop great websites with modern designs. I have worked on Front End Technologies like: HTML, CSS, JavaScript, BootStrap, jQuery, Node.js, React.js.
+            I have a good knowledge of Oracle Database and SQL.
+            With the passion for coding , I also like to paint. On the homepage above, you can see the images of my paintings.
             </p>
         </div>
       </div>
@@ -172,36 +172,39 @@ class Portfolio extends React.Component {
         </div>
         <div className="item3" id="firstrowofproject">
           <div className="col_3_1"></div>
-          <div className="col_3_2" className="projectimagecontainer">
-            <img className="projectimage" src={project1} />
-            <p className="projectname">SHIFT SCHEDULER</p>
-          </div>
-          <div className="col_3_3" className="projectimagecontainer">
-            <img className="projectimage" src={project2} />
-            <p className="projectname">TRAVEL TALK</p>
-          </div>
-          <div className="col_3_4" className="projectimagecontainer">
-            <img className="projectimage" src={project3} />
-            <p className="projectname">HANGMAN</p>
-          </div>
-        </div>
-        <div className="item4" id="secondrowofproject">
-          <div className="col_4_1">
-
-          </div>
-          <div className="col_4_2">
-            <div className="projectimagecontainer">
-              <img className="projectimage" src={project4} />
-              <p className="projectname">GAME_OF_MEMORY</p>
-            </div>
-          </div>
-          <div className="col_4_3">
+          <div className="col_3_2" id="col_row">
             <div className="projectimagecontainer">
               <img className="projectimage" src={project1} />
+              <p className="projectname">SHIFT SCHEDULER</p>
+            </div>
+            <div className="projectimagecontainer">
+              <img className="projectimage" src={project2} />
               <p className="projectname">TRAVEL TALK</p>
             </div>
+            <div className="projectimagecontainer">
+              <img className="projectimage" src={project3} />
+              <p className="projectname">HANGMAN</p>
+            </div>
           </div>
-          <div className="col_4_4"></div>
+          <div className="col_3_3"></div>
+        </div>
+        <div className="item4" id="secondrowofproject">
+          <div className="col_4_1"></div>
+          <div className="col_4_2" id="col_row1">
+            <div className="projectimagecontainer">
+              <img className="projectimage" src={project1} />
+              <p className="projectname">SHIFT SCHEDULER</p>
+            </div>
+            <div className="projectimagecontainer">
+              <img className="projectimage" src={project2} />
+              <p className="projectname">TRAVEL TALK</p>
+            </div>
+            <div className="projectimagecontainer">
+              <img className="projectimage" src={project3} />
+              <p className="projectname">HANGMAN</p>
+            </div>
+          </div>
+          <div className="col_4_3"></div>
         </div>
       </div>
     );
@@ -226,7 +229,7 @@ class Contact extends React.Component {
               <br></br>
               <br></br>
               <div id="contactlogo">
-                <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_blank"><img className="logoimg" className="l1 cl1"  src={logo1} /></a>
+                <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_blank"><img className="logoimg" className="l1 cl1" src={logo1} /></a>
                 <a href="https://www.instagram.com/goelaakrati/" target="_blank"><img className="logoimg" className="l2 cl1" src={logo2} /></a>
                 <a href="https://github.com/Aakratigoel" target="_blank"><img className="logoimg" className="l3" src={logo3} /></a>
               </div>
@@ -254,6 +257,8 @@ ReactDOM.render(
     <br></br>
     <br></br>
     <Portfolio />
+    <br></br>
+    <br></br>
     <br></br>
     <br></br>
     <br></br>
