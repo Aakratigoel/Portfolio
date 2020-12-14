@@ -102,6 +102,7 @@ body{
 width:50%;
 height:95%;
 left:48%;
+text-align: right;
 /* border:1px solid white; */
 z-index: -1;
 }
@@ -218,7 +219,7 @@ a{
 #contactdiv{
   margin-top:20px;
   display: grid;
-  grid-template-columns: 500px 500px 500px;
+  grid-template-columns: 33.5% 33.5% 33.5%;
   text-align: center;
   grid-template-rows:80px;
 }
