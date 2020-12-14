@@ -248,21 +248,7 @@ ReactDOM.render(
   <React.StrictMode>
     <HomePage />
     <About />
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
     <Portfolio />
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
     <Contact />
   </React.StrictMode>,
   document.getElementById('root')
