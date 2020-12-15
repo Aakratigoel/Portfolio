@@ -18,10 +18,11 @@ import project2 from "./images/traveltalk.png";
 import project3 from "./images/hangman.png";
 import project4 from "./images/game_of_memory.png"
 import ReactDOM from 'react-dom';
-
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import { ReactComponent } from '*.svg';
 
 class HomePage extends React.Component {
@@ -33,15 +34,17 @@ class HomePage extends React.Component {
       document.getElementById("navDiv").style.background = "black";
     }
   };
+
   render() {
     return (
       <div id="mainDiv" onScroll="this.handleScroll">
         <div id="leftDiv">
           <div className="item1" id="navDiv">
-            <a href="#mainDiv"> <div className="navDivitem">HOME</div></a>
-            <a href="#secondDiv"><div className="navDivitem">ABOUT</div></a>
-            <a href="#portfoliodiv"> <div className="navDivitem">PORTFOLIO</div></a>
-            <a href="#contactPage"><div className="navDivitem">CONTACT</div></a>
+            <a className ="navfull" href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
+            <a className ="navfull" href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
+            <a className ="navfull" href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
+            <a className ="navfull" href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
+            <a id="navbutton"><div className="navDivitem" id="fabutton"><FontAwesomeIcon icon={faBars} /></div></a>
           </div>
           <div className="item2"></div>
           <div className="item3">

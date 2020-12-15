@@ -41,7 +41,7 @@ body{
 #navDiv{
   position:fixed;
   display: grid;
-  grid-template-columns: 100px 100px 135px 120px;
+  grid-template-columns: 100px 100px 135px 120px 50px;
   grid-template-rows:50px;
   grid-gap:5px;
   color:white;
@@ -328,6 +328,9 @@ color:white;
   font-variant: small-caps;
   font-size:x-large;
 }
+#navbutton{
+  display:none;
+}
 .cl1{
   margin-right:10px;
 }
@@ -349,3 +352,13 @@ code {
 
   /* background-size: cover;
   backdrop-filter: blur(20px); */
+
+  /* Responsive design with media query starts here*/
+  @media only screen and (max-width: 800px) {
+   .navfull{    
+            display: none;
+   }
+   #navbutton{
+     display: block;
+   }
+  }
