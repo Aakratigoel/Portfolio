@@ -28,31 +28,36 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 class HomePage extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
-  
+
   }
-  handleScroll = () => {
+  handleScroll = () => { 
     if (window.scrollY > 20) {
-      document.getElementsByClassName("navDiv")[0].style.background="black";
+      document.getElementById("navbar").style.background = "black";
     }
   };
-  myFunction =()=>{
-    var x =  document.getElementsByClassName("navDiv")[0];
-    console.log(x);
-    if(x.className == "navDiv")
-    {
-      x.className="verticalnavbar";
+  myFunction = () => {
+    let x = document.getElementById("navbar");
+    if (x.className == "navDiv") {
+      console.log(x);
+      x.className = "verticalnavbar";
     }
-    else{
-        x.classList.remove("verticalnavbar");
+    else if(x.className=="verticalnavbar"){
+      if(x.style.display == "none")
+      {
+        x.style.display="block";
+      }
+      else{
+        x.style.display="none";
+      }
     }
-   
+
 
   }
   render() {
     return (
       <div id="mainDiv" onScroll="this.handleScroll">
         <div id="leftDiv">
-          <div className="item1" className="navDiv">
+          <div className="item1" id="navbar" className="navDiv">
             <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
             <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
             <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>

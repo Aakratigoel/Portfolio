@@ -83,11 +83,9 @@ body{
   grid-template-rows:135px 135px 135px 135px 135px;
   grid-gap: 20px;
   padding: 10px;
-  /* border:1px solid white;
-   background-color: #2196F3;  */
 }
 #leftDiv > div {
-  /* background-color: rgba(255, 255, 255, 0.8); */
+ 
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
@@ -97,14 +95,12 @@ body{
   grid-template-columns: 155px 155px 155px 155px;
   grid-template-rows:175px 175px 175px 175px;
   grid-gap: 20px;
-  /* background-color: #2196F3; */
   padding: 10px;
   position: absolute;
 width:50%;
 height:95%;
 left:48%;
 text-align: right;
-/* border:1px solid white; */
 z-index: -1;
 }
 #rightDiv > div {
@@ -112,41 +108,16 @@ z-index: -1;
   padding: 20px 0;
   font-size: 30px;
 }
-/* @keyframes swinging{
-  0%{transform: rotate(10deg);}
-  50%{transform: rotate(-5deg)}
-  100%{transform: rotate(10deg);}
-} */
+
 .paintingpictures{
   text-align: center;
   width: 155px;
   height:155px;
-  /* padding: 10px 10px 10px 10px; */
-  /* border: 1px solid white; */
   background-color: white;
-  /* box-shadow: 10px 10px 5px darkbrown; */
   z-index:-1;
-  /* animation: swinging 3.5s ease-in-out forwards infinite; */
-  /* transform-origin: "bottom right"; */
+
 }
 
-/* .introDiv{
-  width:650px;
-  height:200px;
-  /* border-top: 5px solid rgba(235, 20, 185, 0.5); */
-  /* position: absolute;
-  top:350px;
-  left:320px;
-  box-shadow: 5px 10px 18px rgb(4, 108, 116);
-  text-align: center;
-  padding:3%;
-} */ 
-/* #designation{
-font-family: 'Bradley Hand';
-font-size: 60px;
-font-weight: bold;
-color:black;
-} */
 #name{
   font-family: 'Bradley Hand';
 font-weight: bold;
@@ -336,31 +307,13 @@ color:white;
 }
 .verticalnavbar{
   position:fixed;
+  left:50%;
  display: grid;
  grid-template-columns: 100%;
  grid-template-rows:20% 20% 20% 20%;
  grid-gap:5%;
  color:white;
 } 
-/* #entryButton{
-  padding:10px;
-  background-color: rgba(235, 26, 71, 0.486);
- color:white;
-  height:50px;
-  font-family: Arial;
-  font-weight: bolder;
-  font-size:40px;
-  border-radius:10px;
-} */
-/* 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-  /* background-size: cover;
-  backdrop-filter: blur(20px); */
-
   /* Responsive design with media query starts here*/
   @media only screen and (max-width: 1000px) {
     body{
@@ -371,14 +324,27 @@ code {
    }
    #navbutton{
      display: block;
-     margin-top:4%;
-     width: 25%;
-     height:10%;
+     width: 100%;
+     height:20%;
      font-size: small;
-     background-color: black;
+     background-color: yellow;
      color:white;
+     padding-top:5%;
    }
-  
-   
+  #rightDiv{
+    display: none;
+  }
+   #clickDiv{
+     display: none;
+   }
+   #secondDiv{
+     display: none;
+   }
+   #portfoliodiv{
+     display: none;
+   }
+   #contactPage{
+     display: none;
+   }
   }
   
