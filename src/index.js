@@ -28,24 +28,37 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 class HomePage extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
+  
   }
   handleScroll = () => {
     if (window.scrollY > 20) {
-      document.getElementById("navDiv").style.background = "black";
+      document.getElementsByClassName("navDiv")[0].style.background="black";
     }
   };
+  myFunction =()=>{
+    var x =  document.getElementsByClassName("navDiv")[0];
+    console.log(x);
+    if(x.className == "navDiv")
+    {
+      x.className="verticalnavbar";
+    }
+    else{
+        x.classList.remove("verticalnavbar");
+    }
+   
 
+  }
   render() {
     return (
       <div id="mainDiv" onScroll="this.handleScroll">
         <div id="leftDiv">
-          <div className="item1" id="navDiv">
-            <a className ="navfull" href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
-            <a className ="navfull" href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
-            <a className ="navfull" href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
-            <a className ="navfull" href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
-            <a id="navbutton"><div className="navDivitem" id="fabutton"><FontAwesomeIcon icon={faBars} /></div></a>
+          <div className="item1" className="navDiv">
+            <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
+            <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
+            <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
+            <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
           </div>
+          <div id="navbutton" onClick={this.myFunction}>MENU<FontAwesomeIcon icon={faBars} /></div>
           <div className="item2"></div>
           <div className="item3">
           </div>

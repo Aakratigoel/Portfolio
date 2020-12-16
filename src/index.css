@@ -38,10 +38,10 @@ body{
   grid-template-rows:115px;
   grid-gap:5px;
 }
-#navDiv{
+.navDiv{
   position:fixed;
   display: grid;
-  grid-template-columns: 100px 100px 135px 120px 50px;
+  grid-template-columns: 100px 100px 135px 120px;
   grid-template-rows:50px;
   grid-gap:5px;
   color:white;
@@ -334,6 +334,14 @@ color:white;
 .cl1{
   margin-right:10px;
 }
+.verticalnavbar{
+  position:fixed;
+ display: grid;
+ grid-template-columns: 100%;
+ grid-template-rows:20% 20% 20% 20%;
+ grid-gap:5%;
+ color:white;
+} 
 /* #entryButton{
   padding:10px;
   background-color: rgba(235, 26, 71, 0.486);
@@ -354,11 +362,23 @@ code {
   backdrop-filter: blur(20px); */
 
   /* Responsive design with media query starts here*/
-  @media only screen and (max-width: 800px) {
-   .navfull{    
+  @media only screen and (max-width: 1000px) {
+    body{
+      overflow-x:hidden;
+    }
+   .navDiv{    
             display: none;
    }
    #navbutton{
      display: block;
+     margin-top:4%;
+     width: 25%;
+     height:10%;
+     font-size: small;
+     background-color: black;
+     color:white;
    }
+  
+   
   }
+  
