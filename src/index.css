@@ -320,6 +320,8 @@ color:white;
   @media only screen and (max-width: 1000px) {
     body{
       overflow-x:hidden;
+      padding:0;
+      margin:0;
     }
    .navDiv{    
             display: none;
@@ -340,7 +342,6 @@ color:white;
     grid-gap: 20px;
     padding: 10px;
     position: absolute;
-
     width:30%;
     height:95%;
     left:55%;
@@ -368,7 +369,7 @@ color:white;
    }
    #secondDiv{
      display: block;
-     height:1300px;
+     height:1500px;
    }
    #portfoliodiv{
      display: block;
@@ -404,4 +405,6 @@ color:white;
      height:50%;
    }
   }
-  
+  @media only screen and (min-width: 1001px) {
+
+  }
