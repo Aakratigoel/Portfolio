@@ -13,6 +13,9 @@ body{
   overflow: auto;
   margin-bottom:10%;
 }
+#navbar1{
+  display: none;
+}
 .pic{
   margin-top:13px;
   margin-bottom:10px;
@@ -323,9 +326,10 @@ color:white;
       padding:0;
       margin:0;
     }
-   .navDiv{    
+   #navbar{    
             display: none;
    }
+  
    #navbutton{
      display: block;
      width: 100%;
@@ -405,6 +409,20 @@ color:white;
      height:50%;
    }
   }
-  @media only screen and (min-width: 1001px) {
-
+  @media only screen and (min-width: 1000px) {
+    #navbutton{
+      display: none;
+    }
+    #navbar1{
+     display: none;
+   }
+   #navbar{
+     display: block;
+     position:fixed;
+  display: grid;
+  grid-template-columns: 100px 100px 135px 120px;
+  grid-template-rows:50px;
+  grid-gap:5px;
+  color:white;
+   }
   }

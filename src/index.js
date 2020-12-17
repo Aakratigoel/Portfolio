@@ -36,27 +36,33 @@ class HomePage extends React.Component {
     }
   };
   myFunction = () => {
-    let x = document.getElementById("navbar");
-    if (x.className == "navDiv") {
-      console.log(x);
-      x.className = "verticalnavbar";
-    }
-    else if(x.className=="verticalnavbar"){
-      if(x.style.display == "none")
+     let x = document.getElementById("navbar1");
+        if(x.style.display == "none")
       {
         x.style.display="block";
       }
       else{
         x.style.display="none";
       }
-    }
-
+    // if (x.className == "navDiv") {
+    //   console.log(x);
+    //   x.className = "verticalnavbar";
+    // }
+    // else if(x.className=="verticalnavbar"){
+   
+    // }
 
   }
   render() {
     return (
       <div id="mainDiv" onScroll="this.handleScroll">
         <div id="leftDiv">
+        <div className="item1" id="navbar1" className="verticalnavbar">
+            <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
+            <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
+            <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
+            <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
+          </div>
           <div className="item1" id="navbar" className="navDiv">
             <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
             <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
