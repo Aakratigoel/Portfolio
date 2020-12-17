@@ -64,8 +64,8 @@ class HomePage extends React.Component {
             <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
           </div>
           <div id="navbutton" onClick={this.myFunction}>MENU<FontAwesomeIcon icon={faBars} /></div>
-          <div className="item2"></div>
-          <div className="item3">
+          <div className="item2" ></div>
+          <div className="item3 leftdivrow">
           </div>
           <div className="item4">
             <div id="clickDiv">
@@ -92,43 +92,43 @@ class HomePage extends React.Component {
               <img className="pic" src={picture3} />
             </div>
           </div>
-          <div className="item4">
+          <div className="item4 hideimage">
             <div className="paintingpictures">
               <img className="pic" src={picture4} />
             </div>
           </div>
-          <div className="item5"></div>
-          <div className="item6">
+          <div className="item5 hideimage"></div>
+          <div className="item6 hideimage">
             <div className="paintingpictures">
               <img className="pic" src={picture5} />
             </div>
           </div>
-          <div className="item7">
+          <div className="item7 hideimage">
             <div className="paintingpictures">
               <img className="pic" src={picture6} />
             </div>
           </div>
-          <div className="item8">
+          <div className="item8 hideimage">
             <div className="paintingpictures">
               <img className="pic" src={picture7} />
             </div>
           </div>
-          <div className="item9"></div>
-          <div className="item10"></div>
-          <div className="item11">
+          <div className="item9 hideimage"></div>
+          <div className="item10 hideimage"></div>
+          <div className="item11 hideimage">
             <div className="paintingpictures">
               <img className="pic" src={picture8} />
             </div>
           </div>
-          <div className="item12">
+          <div className="item12 hideimage">
             <div className="paintingpictures">
               <img className="pic" src={picture9} />
             </div>
           </div>
-          <div className="item13"></div>
-          <div className="item14"></div>
-          <div className="item15"></div>
-          <div className="item16">
+          <div className="item13 hideimage"></div>
+          <div className="item14 hideimage"></div>
+          <div className="item15 hideimage"></div>
+          <div className="item16 hideimage">
             <div className="paintingpictures">
               <img className="pic" src={picture10} />
             </div>

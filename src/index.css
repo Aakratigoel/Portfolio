@@ -332,11 +332,33 @@ color:white;
      padding-top:5%;
    }
   #rightDiv{
+    display: grid;
+    grid-template-columns: 155px;
+    grid-template-rows:175px 175px 175px;
+    grid-gap: 20px;
+    padding: 10px;
+    position: absolute;
+
+    width:30%;
+    height:95%;
+    left:55%;
+    text-align: right;
+    z-index: -1;
+    padding-left:10%;
+    padding-top:0%;
+  }
+  #rightDiv .hideimage{
+    display:none;
+  }
+  .leftdivrow{
     display: none;
   }
    #clickDiv{
-     display: none;
+     display: block;
+     width:80%;
+     font-size:60%;
    }
+  
    #secondDiv{
      display: none;
    }
