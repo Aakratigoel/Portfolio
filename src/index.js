@@ -57,19 +57,23 @@ class HomePage extends React.Component {
     return (
       <div id="mainDiv" onScroll="this.handleScroll">
         <div id="leftDiv">
-        <div className="item1" id="navbar1" className="verticalnavbar">
-            <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
-            <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
-            <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
-            <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
-          </div>
+       
           <div className="item1" id="navbar" className="navDiv">
             <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
             <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
             <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
             <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
           </div>
+          <div id="verticalnavbardiv">
           <div id="navbutton" onClick={this.myFunction}>MENU<FontAwesomeIcon icon={faBars} /></div>
+          <div className="item1" id="navbar1" className="verticalnavbar">
+            <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
+            <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
+            <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
+            <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
+          </div>
+          </div>
+         
           <div className="item2" ></div>
           <div className="item3 leftdivrow">
           </div>
@@ -213,7 +217,7 @@ class Portfolio extends React.Component {
               <p className="projectname">HANGMAN</p>
             </div>
           </div>
-          <div className="col_3_3"></div>
+          <div className="row4 col_3_3"></div>
         </div>
       </div>
     );
