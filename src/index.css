@@ -225,7 +225,7 @@ a{
   display: grid;
   grid-template-rows:5% 5% 40% 40%;
   grid-row-gap:5%;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
 }
 #portfolioheading{
 text-align:center;
@@ -310,7 +310,8 @@ color:white;
 }
 .verticalnavbar{
   position:fixed;
-  left:70%;
+  left:0%;
+  top:20%;
  display: grid;
  grid-template-columns: 100%;
  grid-template-rows:20% 20% 20% 20%;

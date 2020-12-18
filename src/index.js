@@ -215,24 +215,6 @@ class Portfolio extends React.Component {
           </div>
           <div className="col_3_3"></div>
         </div>
-        <div className="item4" id="secondrowofproject">
-          <div className="col_4_1"></div>
-          <div className="col_4_2" id="col_row1">
-            <div className="projectimagecontainer">
-              <img className="projectimage" src={project1} />
-              <p className="projectname">SHIFT SCHEDULER</p>
-            </div>
-            <div className="projectimagecontainer">
-              <img className="projectimage" src={project2} />
-              <p className="projectname">TRAVEL TALK</p>
-            </div>
-            <div className="projectimagecontainer">
-              <img className="projectimage" src={project3} />
-              <p className="projectname">HANGMAN</p>
-            </div>
-          </div>
-          <div className="col_4_3"></div>
-        </div>
       </div>
     );
   }
