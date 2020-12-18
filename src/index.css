@@ -225,7 +225,7 @@ a{
   display: grid;
   grid-template-rows:5% 5% 40% 40%;
   grid-row-gap:10%;
-  margin-bottom: 0%;
+  margin-bottom: 15%;
 }
 #portfolioheading{
 text-align:center;
@@ -346,7 +346,7 @@ color:white;
      height:20%;
      font-size: small;
      background-color: yellow;
-     color:white;
+     color:black;
      padding-top:3%;
    }
   #rightDiv{
