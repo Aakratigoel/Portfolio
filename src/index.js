@@ -205,15 +205,15 @@ class Portfolio extends React.Component {
           <div className="col_3_1"></div>
           <div className="col_3_2" id="col_row">
             <div className="projectimagecontainer">
-              <img className="projectimage" src={project1} />
+            <a href="https://fast-brook-71257.herokuapp.com/" target="_blank"><img className="projectimage" src={project1} /></a>
               <p className="projectname">SHIFT SCHEDULER</p>
             </div>
             <div className="projectimagecontainer">
-              <img className="projectimage" src={project2} />
+            <a href="https://kylanchilders.github.io/traveltalk/" target="_blank"><img className="projectimage" src={project2} /></a>
               <p className="projectname">TRAVEL TALK</p>
             </div>
             <div className="projectimagecontainer">
-              <img className="projectimage" src={project3} />
+            <a href="https://aakratigoel.github.io/Word_Guess_Game/" target="_blank"> <img className="projectimage" src={project3} /></a>
               <p className="projectname">HANGMAN</p>
             </div>
           </div>
