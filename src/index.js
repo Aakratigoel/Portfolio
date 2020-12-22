@@ -61,6 +61,7 @@ class HomePage extends React.Component {
             <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
             <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
             <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
+            <a href="https://webdevlearning.com/" target="_blank"> <div className="navDivitem ">BLOG</div></a>
             <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
           </div>
           <div id="verticalnavbardiv">
@@ -201,67 +202,72 @@ class Portfolio extends React.Component {
           <h1>PORTFOLIO</h1>
         </div>
         <div className="item3" id="firstrowofproject">
+          <div id="shiftscheduler">
+              <img className="projectimage" src={project1}/>
+              <p id="p1">
+             <span class="span1"> Shift Scheduler</span> is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.   
+              </p>
+          </div>
+          <div id="traveltalk">
+              <img className="projectimage" src={project2}/>
+              <p id="p2">
+              <span class="span1">Shift Scheduler</span> is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.
+              
+              </p>
+          </div>
+          <div id="hangman">
+              <img className="projectimage" src={project3}/>
+              <p id="p3">
+              <span class="span1">Shift Scheduler</span> is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
+              organization bit eaiser by helping them in creating shift requests for 
+              the shifts that they will not be able to cover and want some other emplotyee 
+              to cover for them.
+              
+              </p>
+          </div>
+        </div>
+        {/* <div className="item3" id="firstrowofproject">
           <div className="col_3_1"></div>
           <div className="col_3_2" id="col_row">
             <div className="projectimagecontainer" id="shiftscheduler">
               <a href="https://fast-brook-71257.herokuapp.com/" target="_blank"><img className="projectimage" src={project1} /></a>
               <p className="projectname">SHIFT SCHEDULER</p>
             </div>
-            <div id="shiftschedulercontent">
-              <p id="p1">
-                Shift Scheduler is a website , that makes the life of employees in an organization bit eaiser by helping them in creating shift requests for the shifts that they will not be able to cover and want some other emplotyee to cover for them.
-
-                First , Organization has to register itself in order to use this site for theire employees
-                Now, the employees register themselves under the name of their organization
-                After a successfull registration, employees sign in and can see their profile that has all their work details(like their regular shift timings that they entered while registering themselves).
-                On the profile page , employees can create a shift request for a particular date and timings.
-                The requests can be seen on shift request page that can be visited by clicking on the "View Requests" button .
-                Initially the status of the request would be "Pending" until someone accepts the request.
-                Once the request is accepted by an employee, the status changes to "accepted" and one can also see the name and email of the employee who has accepted the request.
-                "Sign Out" button does what it says , signs out the current signed in user.
-            </p>
-            </div>
             <div className="projectimagecontainer" id="traveltalk">
               <a href="https://kylanchilders.github.io/traveltalk/" target="_blank"><img className="projectimage" src={project2} /></a>
               <p className="projectname">TRAVEL TALK</p>
             </div>
-            <div id="traveltalkcontent">
-              <p id="p2">
-                Shift Scheduler is a website , that makes the life of employees in an organization bit eaiser by helping them in creating shift requests for the shifts that they will not be able to cover and want some other emplotyee to cover for them.
-
-                First , Organization has to register itself in order to use this site for theire employees
-                Now, the employees register themselves under the name of their organization
-                After a successfull registration, employees sign in and can see their profile that has all their work details(like their regular shift timings that they entered while registering themselves).
-                On the profile page , employees can create a shift request for a particular date and timings.
-                The requests can be seen on shift request page that can be visited by clicking on the "View Requests" button .
-                Initially the status of the request would be "Pending" until someone accepts the request.
-                Once the request is accepted by an employee, the status changes to "accepted" and one can also see the name and email of the employee who has accepted the request.
-                "Sign Out" button does what it says , signs out the current signed in user.
-            </p>
-            </div>
-            
             <div className="projectimagecontainer" id="hangman">
               <a href="https://aakratigoel.github.io/Word_Guess_Game/" target="_blank"> <img className="projectimage" src={project3} /></a>
               <p className="projectname">HANGMAN</p>
             </div>
-
-            <div id="hangmancontent">
-              <p id="p3">
-                Shift Scheduler is a website , that makes the life of employees in an organization bit eaiser by helping them in creating shift requests for the shifts that they will not be able to cover and want some other emplotyee to cover for them.
-
-                First , Organization has to register itself in order to use this site for theire employees
-                Now, the employees register themselves under the name of their organization
-                After a successfull registration, employees sign in and can see their profile that has all their work details(like their regular shift timings that they entered while registering themselves).
-                On the profile page , employees can create a shift request for a particular date and timings.
-                The requests can be seen on shift request page that can be visited by clicking on the "View Requests" button .
-                Initially the status of the request would be "Pending" until someone accepts the request.
-                Once the request is accepted by an employee, the status changes to "accepted" and one can also see the name and email of the employee who has accepted the request.
-                "Sign Out" button does what it says , signs out the current signed in user.
-            </p>
-            </div>
           </div>
           <div className="row4 col_3_3"></div>
-        </div>
+        </div> */}
         
       </div>
     );
