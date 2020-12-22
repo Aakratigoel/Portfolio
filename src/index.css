@@ -230,7 +230,7 @@ a{
   display: grid;
   grid-template-rows:5% 5% 40% 40%;
   grid-row-gap:10%;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 #portfolioheading{
 text-align:center;
@@ -238,40 +238,71 @@ color:white;
 }
 #firstrowofproject{
   display: grid;
-  /* grid-template-columns: 20% 64% 20%; */
+  grid-template-columns: 20% 64% 20%;
   /* grid-template-rows: auto; */
-  height: 600px;
-  margin-left:10%;
-  margin-right:10%;
-  background-color:rgb(83, 8, 83);
-  border: 1px solid white;
-  border-radius:25px;
+  height: 270px;
+  margin-top:7%;
+  margin-bottom: 7%;
+}
+#shiftschedulercontent{
+  display: none;
+  width:19%;
+  height:33%;
+  background-color: white;
+  color:black;
+  overflow-y: auto; 
+}
+#traveltalkcontent{
+  display: none;
+  width:19%;
+  height:33%;
+  background-color: white;
+  color:black;
+  overflow-y: auto; 
+}
+#hangmancontent{
+  display: none;
+  width:19%;
+  height:33%;
+  background-color: white;
+  color:black;
+  overflow-y: auto; 
+}
+#shiftscheduler:hover + div{
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+#traveltalk:hover + div{
+  display: block;
+  position: absolute;
+  left:41%;
+  z-index: 1;
+}
+#hangman:hover + div {
+  display: block;
+  position: absolute;
+  left:62%;
+  z-index: 1;
 }
 #p1,#p2,#p3{
+  padding:10%;
   text-align: justify;
-  margin:3%;
+  font-family: Trebuchet MS;
+  color:gray;
+}
+.buttons{
+width:40%;
+height:12%;
+margin:auto;
+text-align: center;
+padding-top:4%;
+background-color:rgb(202, 28, 80);
+color:white;
+font-family: Trebuchet MS;
+}
+.githublinks{
   color:white;
-  font-family: Trebuchet MS ;
-}
-.span1{
-  font-variant: small-caps;
-  font-style:  bold;
-  font-size:130%;
-  text-decoration: underline;
-
-}
-#shiftscheduler{
-  height:100%;
-  border-bottom : 1px solid white;
-}
-#traveltalk{
-  position: relative;
-  top:-5%;
-  border-bottom : 1px solid white;
-}
-#hangman{
-  position: relative;
-  top:-5%;
 }
 #secondrowofproject{
   display: grid;
@@ -284,17 +315,19 @@ color:white;
   grid-template-columns: 33.25% 33.25% 33.25%;
   height:270px ;
 }
+#col_row1{
+  display: grid;
+  grid-template-columns: 33.25% 33.25% 33.25%;
+}
 .projectimagecontainer{
   width:250px;
   height:220px;
-  background-color: rgb(85, 6, 85);
+  background-color: white;
   padding:10px 10px 40px 10px;
 }
 .projectimage{
   width:250px;
-  height: 150px;
-  float:left;
-  margin:2%;
+  height: 220px;
 }
 .projectname{
   text-align: center;
@@ -302,7 +335,7 @@ color:white;
   font-size: larger;
   font-variant: small-caps;
   font-family: Bradley Hand;
-  color:white;
+  color:black;
   
 }
 #contactPage{
@@ -330,7 +363,7 @@ color:white;
   padding-top:25%;
 }
 #contactdiv2{
-  background-color: rgb(85, 6, 85);;
+  background-color: rgb(83, 8, 83);
 }
 .contactparagraph{
   font-variant: small-caps;

@@ -202,73 +202,48 @@ class Portfolio extends React.Component {
           <h1>PORTFOLIO</h1>
         </div>
         <div className="item3" id="firstrowofproject">
-          <div id="shiftscheduler">
-              <img className="projectimage" src={project1}/>
-              <p id="p1">
-             <span class="span1"> Shift Scheduler</span> is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.   
-              </p>
-          </div>
-          <div id="traveltalk">
-              <img className="projectimage" src={project2}/>
-              <p id="p2">
-              <span class="span1">Shift Scheduler</span> is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.
-              
-              </p>
-          </div>
-          <div id="hangman">
-              <img className="projectimage" src={project3}/>
-              <p id="p3">
-              <span class="span1">Shift Scheduler</span> is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.   Shift Scheduler is a website , that makes the life of employees in an 
-              organization bit eaiser by helping them in creating shift requests for 
-              the shifts that they will not be able to cover and want some other emplotyee 
-              to cover for them.
-              
-              </p>
-          </div>
-        </div>
-        {/* <div className="item3" id="firstrowofproject">
           <div className="col_3_1"></div>
           <div className="col_3_2" id="col_row">
             <div className="projectimagecontainer" id="shiftscheduler">
-              <a href="https://fast-brook-71257.herokuapp.com/" target="_blank"><img className="projectimage" src={project1} /></a>
+             <img className="projectimage" src={project1} />
               <p className="projectname">SHIFT SCHEDULER</p>
             </div>
+            <div id="shiftschedulercontent">
+              <p id="p1">
+                Shift Scheduler is a website , that makes the life of employees in an organization
+                bit eaiser by helping them in creating shift requests for the shifts that
+                they will not be able to cover and want some other employee to cover for them.
+            </p>
+              <div id="b1" class="buttons"> <a href="https://fast-brook-71257.herokuapp.com/" target="_blank" class="githublinks">Web Link</a></div>
+            </div>
             <div className="projectimagecontainer" id="traveltalk">
-              <a href="https://kylanchilders.github.io/traveltalk/" target="_blank"><img className="projectimage" src={project2} /></a>
+              <img className="projectimage" src={project2} />
               <p className="projectname">TRAVEL TALK</p>
             </div>
+            <div id="traveltalkcontent">
+              <p id="p2">
+                Travel Talk is a website , that makes the life of employees in an organization
+                bit eaiser by helping them in creating shift requests for the shifts that
+                they will not be able to cover and want some other employee to cover for them.
+            </p>
+              <div id="b2" class="buttons"><a href="https://kylanchilders.github.io/traveltalk/" target="_blank" class="githublinks">Web Link</a></div>
+            </div>
             <div className="projectimagecontainer" id="hangman">
-              <a href="https://aakratigoel.github.io/Word_Guess_Game/" target="_blank"> <img className="projectimage" src={project3} /></a>
+               <img className="projectimage" src={project3} />
               <p className="projectname">HANGMAN</p>
+            </div>
+            <div id="hangmancontent">
+              <p id="p3">
+                Hangman is a website , that makes the life of employees in an organization
+                bit eaiser by helping them in creating shift requests for the shifts that
+                they will not be able to cover and want some other employee to cover for them.
+            </p>
+              <div id="b3" class="buttons"><a href="https://aakratigoel.github.io/Word_Guess_Game/" target="_blank" class="githublinks">Web Link</a></div>
             </div>
           </div>
           <div className="row4 col_3_3"></div>
-        </div> */}
-        
+        </div>
+
       </div>
     );
   }
