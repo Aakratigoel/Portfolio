@@ -144,13 +144,25 @@ body{
     /*border:3px solid yellow; */
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows:150px 230px 50px 250px 115px;
+    grid-template-rows:150px 600px;
     margin-bottom:10%;
 }
 #aboutdiv{
   color:white;
   text-align: center;
   padding:50px;
+}
+#aboutdivcontent{
+  height:100%;
+  width:70%;
+  margin:auto;
+  background-color: white;
+}
+#mypic{
+  height:100%;
+  width:45%;
+  float:left;
+  margin-right:5%;
 }
 a{
   text-decoration: none;
@@ -170,14 +182,20 @@ a{
     text-align: justify;
    
 }
-#paracontent{
-  color:white;
-  /* text-align: center; */
-  margin:auto;
-  font-size: larger;
-  line-height: 1.7;
-  width:45%;
+#content{
+  text-align: center;
+  padding:5%;
+} #heading2{
+  margin-bottom:5%;;
+  text-align:center;
+  font-family: Trebuchet MS;
+  font-style: italic;
 }
+#paracontent{
+ text-align: justify;
+ font-family: Trebuchet MS;
+ color:gray;
+} 
 #pictureContainer{
   width:180px;
   height: 170px;

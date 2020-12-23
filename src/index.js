@@ -1,4 +1,5 @@
 import React from 'react';
+import profilepic from "./images/pic1.jpg"
 import picture from './images/aakrati.jpg';
 import picture1 from './images/boat.jpg';
 import picture2 from './images/buddha.jpg';
@@ -163,7 +164,35 @@ class About extends React.Component {
         <div className="item1" id="aboutdiv">
           <h1>ABOUT ME</h1>
         </div>
-        <div className="item2" id="profileDiv">
+
+        <div className="item2" id="aboutdivcontent">
+          <img src={profilepic} id="mypic" />
+          <div id="content">
+            <h2 id="heading2">Who Am I ?</h2>
+            <p id="paracontent">
+              Hi I am Aakrati. I work as a Freelance Front-end Developer and a Wed Development Instructor at the Nucamp Coding Bootcamp( if there is a link to their website- please add it).
+              I recently graduated from the University of Washington with a Diploma in Full Stack Web Development.
+              I also author the blog ( link to the blog).
+              <br></br>
+              <br></br>
+              With a passion for coding and an eye for design, I believe being challenged is what drives me.
+               I love to work at the intersection of development and design. I specialize in front-end languages - HTML, CSS, JavaScript, BootStrap, jQuery, Node.js, React.js.
+               In all of my projects I strive for Fast, Intuitive, Responsive and Dynamic Designs.
+              <br></br>
+              <br></br>
+              Prior to moving to Seattle, I worked as Project Engineer for Wipro Technologies India (link )
+               where my work involved Andriod app development using Java.
+              <br></br>
+              <br></br>
+              Coming from India and having lived and worked across countries, I love connecting with people from various backgrounds.
+               I love to collaborate and work together in multicultural and diverse environments.
+
+
+           </p>
+          </div>
+
+        </div>
+        {/* <div className="item2" id="profileDiv">
           <div id="pictureContainer">
             <img id="pp" src={picture} />
             <p id="namepara">AAKRATI GOEL</p>
@@ -186,7 +215,7 @@ class About extends React.Component {
             I have a good knowledge of Oracle Database and SQL.
             With the passion for coding , I also like to paint. On the homepage above, you can see the images of my paintings.
             </p>
-        </div>
+        </div> */}
       </div>
     );
   }
@@ -205,7 +234,7 @@ class Portfolio extends React.Component {
           <div className="col_3_1"></div>
           <div className="col_3_2" id="col_row">
             <div className="projectimagecontainer" id="shiftscheduler">
-             <img className="projectimage" src={project1} />
+              <img className="projectimage" src={project1} />
               <p className="projectname">SHIFT SCHEDULER</p>
             </div>
             <div id="shiftschedulercontent">
@@ -229,7 +258,7 @@ class Portfolio extends React.Component {
               <div id="b2" class="buttons"><a href="https://kylanchilders.github.io/traveltalk/" target="_blank" class="githublinks">Web Link</a></div>
             </div>
             <div className="projectimagecontainer" id="hangman">
-               <img className="projectimage" src={project3} />
+              <img className="projectimage" src={project3} />
               <p className="projectname">HANGMAN</p>
             </div>
             <div id="hangmancontent">
