@@ -19,8 +19,8 @@ body{
 .pic{
   margin-top:13px;
   margin-bottom:10px;
-  width: 130px;
-  height:130px;
+  width: 150px;
+  height:150px;
   border: 1px solid white;
   border-radius: 15%;
   
@@ -51,6 +51,7 @@ body{
   grid-template-rows:50px;
   grid-gap:5px;
   color:white;
+
 }
 .navDivitem{
   padding-top:0px;
@@ -60,6 +61,8 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-size:55%;
   color:white;
+  font-family: Trebuchet MS;
+  font-weight: bolder;
 }
 #comeonindiv{
   padding-top:30px;
@@ -77,7 +80,7 @@ body{
 }
 #clickMe{
   color:white;
-  font-family: Arial;
+  font-family: Trebuchet MS;
   font-weight: bolder;
   font-size: 120%;
   
@@ -151,6 +154,7 @@ body{
   color:white;
   text-align: center;
   padding:50px;
+  font-family: Trebuchet MS;
 }
 #aboutdivcontent{
   height:100%;
@@ -262,6 +266,7 @@ a{
 #portfolioheading{
 text-align:center;
 color:white;
+font-family: Trebuchet MS;
 }
 #firstrowofproject{
   display: grid;
@@ -385,6 +390,7 @@ font-family: Trebuchet MS;
 #aboutheading{
   text-align:center;
 color:white;
+font-family: Trebuchet MS;
 }
 #contactdiv1{
   padding-top:25%;
@@ -439,6 +445,7 @@ color:white;
      font-size: small;
      background-color: rgb(83, 8, 83);
      color:white;
+     font-family: Trebuchet MS;
      padding-top:3%;
    }
   #rightDiv{
