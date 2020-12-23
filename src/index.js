@@ -170,7 +170,7 @@ class About extends React.Component {
           <div id="content">
             <h2 id="heading2">Who Am I ?</h2>
             <p id="paracontent">
-              Hi I am Aakrati. I work as a Freelance Front-end Developer and a Wed Development Instructor at the Nucamp Coding Bootcamp( if there is a link to their website- please add it).
+              Hi I am <span id="aboutname">Aakrati Goel</span>. I work as a Freelance Front-end Developer and a Wed Development Instructor at the Nucamp Coding Bootcamp( if there is a link to their website- please add it).
               I recently graduated from the University of Washington with a Diploma in Full Stack Web Development.
               I also author the blog <span><a id ="bloglink"href="https://webdevlearning.com" target="_blank">Web Dev Learning</a></span>.
               <br></br>

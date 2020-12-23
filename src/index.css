@@ -171,6 +171,11 @@ body{
 a{
   text-decoration: none;
 }
+#aboutname{
+  font-variant: small-caps;
+  color:salmon;
+  font-size:130%;
+}
 .navDivitem:hover{
   color:rgb(209, 14, 209);
 }
