@@ -172,7 +172,7 @@ class About extends React.Component {
             <p id="paracontent">
               Hi I am Aakrati. I work as a Freelance Front-end Developer and a Wed Development Instructor at the Nucamp Coding Bootcamp( if there is a link to their website- please add it).
               I recently graduated from the University of Washington with a Diploma in Full Stack Web Development.
-              I also author the blog ( link to the blog).
+              I also author the blog <span><a id ="bloglink"href="https://webdevlearning.com" target="_blank">Web Dev Learning</a></span>.
               <br></br>
               <br></br>
               With a passion for coding and an eye for design, I believe being challenged is what drives me.
@@ -180,14 +180,17 @@ class About extends React.Component {
                In all of my projects I strive for Fast, Intuitive, Responsive and Dynamic Designs.
               <br></br>
               <br></br>
-              Prior to moving to Seattle, I worked as Project Engineer for Wipro Technologies India (link )
+              Prior to moving to Seattle, I worked as Project Engineer for Wipro Technologies India
                where my work involved Andriod app development using Java.
-              <br></br>
               <br></br>
               Coming from India and having lived and worked across countries, I love connecting with people from various backgrounds.
                I love to collaborate and work together in multicultural and diverse environments.
-
-
+              <br></br>
+              <br></br>
+              Besides coding, I share a deep love for painting and design.Some of my art work has been used in this Portfolio. 
+              <br></br>
+              Currently, I'm looking for full-time opportunities, but I am open to fun freelance projects. 
+              Please don't hesitate to reach out— I'm happy to chat about work or play!
            </p>
           </div>
 

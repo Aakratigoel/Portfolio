@@ -162,7 +162,11 @@ body{
   height:100%;
   width:45%;
   float:left;
-  margin-right:5%;
+  margin-right:3%;
+}
+#bloglink{
+  color:salmon;
+  text-decoration: none;
 }
 a{
   text-decoration: none;
@@ -184,9 +188,9 @@ a{
 }
 #content{
   text-align: center;
-  padding:5%;
+  padding:3%;
 } #heading2{
-  margin-bottom:5%;;
+  margin-bottom:3%;;
   text-align:center;
   font-family: Trebuchet MS;
   font-style: italic;
