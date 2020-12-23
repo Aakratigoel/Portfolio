@@ -502,6 +502,50 @@ color:white;
     grid-row-gap:7%;
     text-align: center;
   }
+  #shiftschedulercontent{
+    display: none;
+    width:270px;
+    height:270px;
+    background-color: white;
+    color:black;
+    overflow-y: auto; 
+  }
+  #traveltalkcontent{
+    display: none;
+    width:270px;
+    height:270px;
+    background-color: white;
+    color:black;
+    overflow-y: auto; 
+  }
+  #hangmancontent{
+    display: none;
+    width:270px;
+    height:270px;
+    background-color: white;
+    color:black;
+    overflow-y: auto; 
+  }
+  #shiftscheduler:hover + div{
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  #traveltalk:hover + div{
+    display: block;
+    position: relative;
+    z-index: 1;
+    top:-124%;
+    left:0%;
+   
+  }
+  #hangman:hover + div {
+    display: block;
+    position: relative;
+    z-index: 1;
+    top:-124%;
+    left:0%;
+  }
   #secondrowofproject{
     display: none;;
   }
