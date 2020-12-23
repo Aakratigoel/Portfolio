@@ -71,6 +71,7 @@ class HomePage extends React.Component {
               <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
               <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
               <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
+              <a href="https://webdevlearning.com/" target="_blank"> <div className="navDivitem ">BLOG</div></a>
               <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
             </div>
           </div>
