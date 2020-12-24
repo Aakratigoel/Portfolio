@@ -541,10 +541,9 @@ font-family: Trebuchet MS;
   #traveltalk:hover + div{
     display: block;
     position: relative;
-    z-index: 1;
+    z-index: 1; 
     top:-124%;
     left:0%;
-   
   }
   #hangman:hover + div {
     display: block;
