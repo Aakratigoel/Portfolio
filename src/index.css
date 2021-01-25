@@ -152,11 +152,12 @@ body{
 }
 #introname{
   color:white;
-  font-family:'Aclonica', sans-serif;;
+  font-family:'Aclonica', sans-serif;
   font-variant: small-caps;
 }
+
 #secondDiv{ 
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     display: grid;
     grid-template-columns: auto;
@@ -167,7 +168,7 @@ body{
   color:white;
   text-align: center;
   padding:50px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
 #aboutdivcontent{
@@ -177,6 +178,20 @@ body{
   position: relative;
   top: 175%;
   /* background-color: white; */
+}
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+  color:white;
+  margin-bottom:20px;
+ text-align: center;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#arrowlink{
+  text-decoration: none;
+  color:white;
 }
 #mypic{
   height:50%;

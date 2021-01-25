@@ -1,5 +1,5 @@
 import React from 'react';
-import profilepic from "./images/pic1.jpg"
+import profilepic from "./images/pic1.jpg";
 import picture from './images/aakrati.jpg';
 import logo1 from "./images/linkedin.png";
 import logo2 from "./images/insta.png";
@@ -89,8 +89,14 @@ class About extends React.Component {
             <h1 id="introheading">Web Developer</h1>
             <h1 id="introname"> AAKRATI GOEL</h1>
           </div>
+          
         </div>
-      </div>
+        <footer id="footer">
+            Learn more about me
+            <div><a id="arrowlink"href="#portfoliodiv"><span>&#x25BE;</span></a></div>
+          </footer>
+        </div>
+       
     );
   }
 }
