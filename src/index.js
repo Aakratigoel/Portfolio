@@ -93,14 +93,50 @@ class About extends React.Component {
         </div>
         <footer id="footer">
             Learn more about me
-            <div><a id="arrowlink"href="#portfoliodiv"><span>&#x25BE;</span></a></div>
+            <div><a id="arrowlink"href="#myprofilediv"><span>&#x25BE;</span></a></div>
           </footer>
         </div>
        
     );
   }
 }
+class MyProfile extends React.Component{
+  render(){
+    return(
+      <div id ="myprofilediv">
+        <div className="item1"></div>
+        <div className="item2">
+          <h2 id="profileheading">Hi, I am Aakrati. Nice to meet you.</h2>
+          <br></br>
+          <p id="mepara">
+         I work as a Freelance Front-end Developer and a Wed Development Instructor at the Nucamp Coding Bootcamp.
+              I recently graduated from the University of Washington with a Diploma in Full Stack Web Development.
+              I also author the blog <span><a id ="bloglink"href="https://webdevlearning.com" target="_blank">Web Dev Learning</a></span>.
+              <br></br>
+              <br></br>
+              With a passion for coding and an eye for design, I believe being challenged is what drives me.
+               I love to work at the intersection of development and design. I specialize in front-end languages - HTML, CSS, JavaScript, BootStrap, jQuery, Node.js, React.js.
+               In all of my projects I strive for Fast, Intuitive, Responsive and Dynamic Designs.
+              <br></br>
+              <br></br>
+              Prior to moving to Seattle, I worked as Project Engineer for Wipro Technologies India
+               where my work involved Andriod app development using Java.
+              <br></br>
+              Coming from India and having lived and worked across countries, I love connecting with people from various backgrounds.
+               I love to collaborate and work together in multicultural and diverse environments.
+              <br></br>
+              <br></br>
+              Besides coding, I share a deep love for painting and design.. 
+              <br></br>
+              Currently, I'm looking for full-time opportunities, but I am open to fun freelance projects. 
+              Please don't hesitate to reach out— I'm happy to chat about work.
 
+          </p>
+        </div>
+      </div>
+    )
+  }
+}
 class Portfolio extends React.Component {
   render() {
     return (
@@ -193,6 +229,7 @@ ReactDOM.render(
   <React.StrictMode>
     {/* <HomePage /> */}
     <About />
+    <MyProfile/>
     <Portfolio />
     <Contact />
   </React.StrictMode>,

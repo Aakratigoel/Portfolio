@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
 *{
   margin:0;
   padding:0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   width:100%;
   background: url(images/bg1.jpeg) no-repeat center center fixed;
@@ -193,6 +200,14 @@ body{
   text-decoration: none;
   color:white;
 }
+#profileheading{
+  text-align: center;
+  color:white;
+  font-family: 'Coiny', cursive;
+  font-size:250%;
+
+}
+
 #mypic{
   height:50%;
   width:20%;
@@ -288,6 +303,23 @@ a{
   width:40px;
   height:40px; 
 }
+#myprofilediv{
+  height:100vh;
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.246);
+  /* grid-template-rows:30% 200%;
+  grid-row-gap:10%; */
+}
+#mepara{
+  color:white;
+  margin:auto;
+  text-align:center;
+  width:50%;
+  font-size:large;
+
+ font-family:'Aclonica', sans-serif;;
+
+}
 
 #portfoliodiv{
   height: 600px;
@@ -300,11 +332,12 @@ a{
 #portfolioheading{
 text-align:center;
 color:white;
-font-family: Trebuchet MS;
+font-size:150%;
+font-family:'Monoton', cursive;
 }
 #firstrowofproject{
   display: grid;
-  grid-template-columns: 20% 64% 20%;
+  grid-template-columns: 15% 64% 15%;
   /* grid-template-rows: auto; */
   height: 270px;
   margin-top:7%;
@@ -379,6 +412,7 @@ font-family: Trebuchet MS;
 #col_row{
   display: grid;
   grid-template-columns: 33.25% 33.25% 33.25%;
+  column-gap: 2.5em;
   height:270px ;
 }
 #col_row1{
@@ -386,14 +420,17 @@ font-family: Trebuchet MS;
   grid-template-columns: 33.25% 33.25% 33.25%;
 }
 .projectimagecontainer{
-  width:250px;
+  width:300px;
   height:220px;
-  background-color: white;
-  padding:10px 10px 40px 10px;
+  /* background-color: white; */
+  border:1px solid rgba(0, 0, 0, 0.034);
+  border-radius:10%;
 }
 .projectimage{
-  width:250px;
+  width:300px;
   height: 220px;
+  border:1px solid rgba(0, 0, 0, 0.075);
+  border-radius:10%;
 }
 .projectname{
   text-align: center;
