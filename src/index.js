@@ -65,7 +65,7 @@ class HomePage extends React.Component {
             </div>
           </div>
         </div>
-       
+
         {/* <div className="introDiv">
           <div id="designation">Web Developer</div>
           <br></br>
@@ -89,46 +89,46 @@ class About extends React.Component {
             <h1 id="introheading">Web Developer</h1>
             <h1 id="introname"> AAKRATI GOEL</h1>
           </div>
-          
+
         </div>
         <footer id="footer">
-            Learn more about me
-            <div><a id="arrowlink"href="#myprofilediv"><span>&#x25BE;</span></a></div>
-          </footer>
-        </div>
-       
+          Learn more about me
+            <div><a id="arrowlink" href="#myprofilediv"><span>&#x25BE;</span></a></div>
+        </footer>
+      </div>
+
     );
   }
 }
-class MyProfile extends React.Component{
-  render(){
-    return(
-      <div id ="myprofilediv">
+class MyProfile extends React.Component {
+  render() {
+    return (
+      <div id="myprofilediv">
         <div className="item1"></div>
         <div className="item2">
           <h2 id="profileheading">Hi, I am Aakrati. Nice to meet you.</h2>
           <br></br>
           <p id="mepara">
-         I work as a Freelance Front-end Developer and a Wed Development Instructor at the Nucamp Coding Bootcamp.
-              I recently graduated from the University of Washington with a Diploma in Full Stack Web Development.
-              I also author the blog <span><a id ="bloglink"href="https://webdevlearning.com" target="_blank">Web Dev Learning</a></span>.
+            I work as a Freelance Front-end Developer and a Wed Development Instructor at the Nucamp Coding Bootcamp.
+            I recently graduated from the University of Washington with a Diploma in Full Stack Web Development.
+              I also author the blog <span><a id="bloglink" href="https://webdevlearning.com" target="_blank">Web Dev Learning</a></span>.
               <br></br>
-              <br></br>
+            <br></br>
               With a passion for coding and an eye for design, I believe being challenged is what drives me.
                I love to work at the intersection of development and design. I specialize in front-end languages - HTML, CSS, JavaScript, BootStrap, jQuery, Node.js, React.js.
                In all of my projects I strive for Fast, Intuitive, Responsive and Dynamic Designs.
               <br></br>
-              <br></br>
+            <br></br>
               Prior to moving to Seattle, I worked as Project Engineer for Wipro Technologies India
                where my work involved Andriod app development using Java.
               <br></br>
               Coming from India and having lived and worked across countries, I love connecting with people from various backgrounds.
                I love to collaborate and work together in multicultural and diverse environments.
               <br></br>
+            <br></br>
+              Besides coding, I share a deep love for painting and design..
               <br></br>
-              Besides coding, I share a deep love for painting and design.. 
-              <br></br>
-              Currently, I'm looking for full-time opportunities, but I am open to fun freelance projects. 
+              Currently, I'm looking for full-time opportunities, but I am open to fun freelance projects.
               Please don't hesitate to reach out— I'm happy to chat about work.
 
           </p>
@@ -149,39 +149,25 @@ class Portfolio extends React.Component {
         <div className="item3" id="firstrowofproject">
           <div className="col_3_1"></div>
           <div className="col_3_2" id="col_row">
-            <div className="projectimagecontainer" id="shiftscheduler">
-              <img className="projectimage" src={project1} />
-              <p className="projectname">SHIFT SCHEDULER</p>
-            </div>
-            <div id="shiftschedulercontent">
-              <p id="p1">
-                Shift Scheduler is a website , that makes the life of employees in an organization
-                bit eaiser by helping them in creating shift requests for the shifts that
-                they will not be able to cover and want some other employee to cover for them.
-            </p>
-              <div id="b1" class="buttons"> <a href="https://fast-brook-71257.herokuapp.com/" target="_blank" class="githublinks">Web Link</a></div>
-            </div>
-            <div className="projectimagecontainer" id="traveltalk">
+            <div className="projectimagecontainer" >
               <img className="projectimage" src={project2} />
-              <p className="projectname">TRAVEL TALK</p>
+              <div className="projectimagediv">
+                <p class="projectname">TravelTalk</p>
+              </div>
             </div>
-            <div id="traveltalkcontent">
-              <p id="p2">
-                Travel Talk is a website , where .
-            </p>
-              <div id="b2" class="buttons"><a href="https://kylanchilders.github.io/traveltalk/" target="_blank" class="githublinks">Web Link</a></div>
+            <div className="projectimagecontainer">
+
+              <img className="projectimage" src={project1} />
+              <div className="projectimagediv">
+                <p class="projectname">ShiftScheduler</p>
+              </div>
+
             </div>
             <div className="projectimagecontainer" id="hangman">
-              <img className="projectimage" src={project3} />
-              <p className="projectname">HANGMAN</p>
-            </div>
-            <div id="hangmancontent">
-              <p id="p3">
-                Hangman is a website , that makes the life of employees in an organization
-                bit eaiser by helping them in creating shift requests for the shifts that
-                they will not be able to cover and want some other employee to cover for them.
-            </p>
-              <div id="b3" class="buttons"><a href="https://aakratigoel.github.io/Word_Guess_Game/" target="_blank" class="githublinks">Web Link</a></div>
+            <img className="projectimage" src={project3} />
+              <div className="projectimagediv">
+                <p class="projectname">Hangman</p>
+              </div>
             </div>
           </div>
           <div className="row4 col_3_3"></div>
@@ -229,7 +215,7 @@ ReactDOM.render(
   <React.StrictMode>
     {/* <HomePage /> */}
     <About />
-    <MyProfile/>
+    <MyProfile />
     <Portfolio />
     <Contact />
   </React.StrictMode>,
