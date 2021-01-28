@@ -133,6 +133,9 @@ class MyProfile extends React.Component {
 
           </p>
         </div>
+        <footer id="footer2">
+            <div id="arrowdiv"><a id="arrowlink" href="#portfoliodiv"><span>&#x25BE;</span></a></div>
+        </footer>
       </div>
     )
   }
