@@ -223,6 +223,9 @@ body{
 #arrowdiv{
   padding-top:5%;
 }
+#arrowdiv1{
+  padding-top:8%;
+}
 #profileheading{
   text-align: center;
   color:white;
@@ -528,7 +531,7 @@ font-family:'Monoton', cursive;
 #contactimage{
   height:35%;
   width:23%;
-  border:1px solid white;
+  border:1px solid black;
   border-radius: 50%;
   margin-bottom: 5%;
 }

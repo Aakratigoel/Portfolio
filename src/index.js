@@ -106,7 +106,7 @@ class MyProfile extends React.Component {
     return (
       <div id="myprofilediv">
         <div className="item1"></div>
-        <div className="item2">
+        <div className="item2" id="profilecontent">
           <h2 id="profileheading">Hi, I am Aakrati. Nice to meet you.</h2>
           <br></br>
           <p id="mepara">
@@ -135,7 +135,9 @@ class MyProfile extends React.Component {
           </p>
         </div>
         <footer id="footer2">
-          <div id="arrowdiv"><a id="arrowlink" href="#portfoliodiv"><span>&#x25BE;</span></a></div>
+          <div id="arrowdiv"> 
+          {/* My Project Work<br></br> */}
+          <a id="arrowlink" href="#portfoliodiv"><span>&#x25BE;</span></a></div>
         </footer>
       </div>
     )
@@ -198,7 +200,7 @@ class Portfolio extends React.Component {
           <div className="row4 col_3_3"></div>
         </div>
         <footer id="footer3">
-          <div id="arrowdiv"><a id="arrowlink" href="#contactPage"><span>&#x25BE;</span></a></div>
+          <div id="arrowdiv1"><a id="arrowlink" href="#contactPage"><span>&#x25BE;</span></a></div>
         </footer>
       </div>
     );
