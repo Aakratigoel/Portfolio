@@ -8,7 +8,7 @@ import project1 from "./images/shiftScheduler.png";
 import project2 from "./images/traveltalk.png";
 import project3 from "./images/hangman.png";
 import project4 from "./images/game_of_memory.png"
-import backgroundImage from "./images/bg1.jpeg"
+import backgroundImage from "./images/bg1.jpg"
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
