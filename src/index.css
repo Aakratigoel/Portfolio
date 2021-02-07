@@ -498,7 +498,7 @@ position: relative;
 #contactPage{
   /* background-color: black; */
   display: grid;
-  grid-template-rows:135px 450px 145px;
+  grid-template-rows:90px 450px 145px;
   grid-template-columns:auto;
 }
 #contactinfo{
@@ -507,10 +507,8 @@ position: relative;
 #contactdetails{
   width:700px;
   height: 450px;
-  background-color: rgba(255, 255, 255, 0.52);
   margin:auto;
   display: grid;
-  grid-template-columns:70% 30%;
 }
 #contactheading{
   text-align:center;
@@ -519,14 +517,20 @@ font-size:150%;
 font-family:'Monoton', cursive;
 }
 #contactdiv1{
-  padding-top:25%;
+  /* padding-top:10%; */
 }
-#contactdiv2{
-  background-color: rgba(83, 8, 83, 0.24);
-}
+
 .contactparagraph{
-  font-variant: small-caps;
-  font-size:x-large;
+  font-size:large;
+  color:white;
+  font-family: 'Aclonica', sans-serif; 
+}
+#contactimage{
+  height:35%;
+  width:23%;
+  border:1px solid white;
+  border-radius: 50%;
+  margin-bottom: 5%;
 }
 #verticalnavbardiv{
   display:none;

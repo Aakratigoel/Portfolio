@@ -1,6 +1,6 @@
 import React from 'react';
 import profilepic from "./images/pic1.jpg";
-import picture from './images/aakrati.jpg';
+import picture from './images/aak2.jpg';
 import logo1 from "./images/linkedin.png";
 import logo2 from "./images/insta.png";
 import logo3 from "./images/github.png";
@@ -214,8 +214,7 @@ class Contact extends React.Component {
           <div></div>
           <div id="contactdetails">
             <div id="contactdiv1">
-              <p className="contactparagraph">Aakrati Goel</p>
-              <br></br>
+            <img id="contactimage"src={picture} />
               <p className="contactparagraph">aakratigoel@gmail.com</p>
               <br></br>
               <p className="contactparagraph">Seattle, WA</p>
@@ -223,11 +222,9 @@ class Contact extends React.Component {
               <br></br>
               <div id="contactlogo">
                 <a href="https://www.linkedin.com/in/aakrati-goel-435094200/" target="_blank"><img className="logoimg" className="l1 cl1" src={logo1} /></a>
-                <a href="https://www.instagram.com/goelaakrati/" target="_blank"><img className="logoimg" className="l2 cl1" src={logo2} /></a>
                 <a href="https://github.com/Aakratigoel" target="_blank"><img className="logoimg" className="l3" src={logo3} /></a>
               </div>
             </div>
-            <div id="contactdiv2"></div>
           </div>
           <div></div>
         </div>
