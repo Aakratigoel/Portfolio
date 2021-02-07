@@ -134,7 +134,7 @@ class MyProfile extends React.Component {
           </p>
         </div>
         <footer id="footer2">
-            <div id="arrowdiv"><a id="arrowlink" href="#portfoliodiv"><span>&#x25BE;</span></a></div>
+          <div id="arrowdiv"><a id="arrowlink" href="#portfoliodiv"><span>&#x25BE;</span></a></div>
         </footer>
       </div>
     )
@@ -155,6 +155,13 @@ class Portfolio extends React.Component {
             <div className="projectimagecontainer" >
               <img className="projectimage" src={project2} />
               <div className="projectimagediv">
+                <div className="projectdescription">
+                  <p >Find Events around you with your travel buddy</p>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <a href="https://kylanchilders.github.io/traveltalk/" className="sitelink" target="_blank">Vist Website</a>
+                </div>
                 <p class="projectname">TravelTalk</p>
               </div>
             </div>
@@ -162,20 +169,36 @@ class Portfolio extends React.Component {
 
               <img className="projectimage" src={project1} />
               <div className="projectimagediv">
+                <div className="projectdescription">
+                  <p >Request your shifts to be covered by your colleagues</p>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <a href="https://fast-brook-71257.herokuapp.com/" className="sitelink" target="_blank">Vist Website</a>
+                </div>
                 <p class="projectname">ShiftScheduler</p>
               </div>
 
             </div>
             <div className="projectimagecontainer" id="hangman">
-            <img className="projectimage" src={project3} />
+              <img className="projectimage" src={project3} />
               <div className="projectimagediv">
+                <div className="projectdescription">
+                  <p >Play the guessing game. <br></br>Have Fun</p>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <a href="https://aakratigoel.github.io/Word_Guess_Game/" className="sitelink" target="_blank">Vist Website</a>
+                </div>
                 <p class="projectname">Hangman</p>
               </div>
             </div>
           </div>
           <div className="row4 col_3_3"></div>
         </div>
-
+        <footer id="footer3">
+          <div id="arrowdiv"><a id="arrowlink" href="#contactPage"><span>&#x25BE;</span></a></div>
+        </footer>
       </div>
     );
   }
@@ -184,7 +207,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div id="contactPage">
-        <div id="aboutheading">
+        <div id="contactheading">
           <h1>CONTACT</h1>
         </div>
         <div id="contactinfo">
