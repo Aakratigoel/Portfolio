@@ -15,70 +15,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import { ReactComponent } from '*.svg';
 
-class HomePage extends React.Component {
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-
-  }
-  handleScroll = () => {
-    if (window.scrollY > 20) {
-      document.getElementById("navbar").style.background = "black";
-    }
-  };
-  myFunction = () => {
-    let x = document.getElementById("navbar1");
-    if (x.style.display == "none") {
-      x.style.display = "block";
-    }
-    else {
-      x.style.display = "none";
-    }
-    // if (x.className == "navDiv") {
-    //   console.log(x);
-    //   x.className = "verticalnavbar";
-    // }
-    // else if(x.className=="verticalnavbar"){
-
-    // }
-
-  }
-  render() {
-    return (
-      <div id="mainDiv" onScroll="this.handleScroll">
-        <div id="leftDiv">
-          <div className="item1" id="navbar" className="navDiv">
-            <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
-            <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
-            <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
-            <a href="https://webdevlearning.com/" target="_blank"> <div className="navDivitem ">BLOG</div></a>
-            <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
-          </div>
-          <div id="verticalnavbardiv">
-            <div id="navbutton" onClick={this.myFunction}>MENU<FontAwesomeIcon icon={faBars} /></div>
-            <div className="item1" id="navbar1" className="verticalnavbar">
-              <a href="#mainDiv"> <div className="navDivitem ">HOME</div></a>
-              <a href="#secondDiv"><div className="navDivitem ">ABOUT</div></a>
-              <a href="#portfoliodiv"> <div className="navDivitem ">PORTFOLIO</div></a>
-              <a href="https://webdevlearning.com/" target="_blank"> <div className="navDivitem ">BLOG</div></a>
-              <a href="#contactPage"><div className="navDivitem ">CONTACT</div></a>
-            </div>
-          </div>
-        </div>
-
-        {/* <div className="introDiv">
-          <div id="designation">Web Developer</div>
-          <br></br>
-          <br></br>
-          <div><span id="entryButton">COME ON IN</span></div>
-        </div> */}
-      </div>
-    );
-  }
-
-
-}
 class About extends React.Component {
   render() {
     return (
@@ -239,7 +176,7 @@ class Contact extends React.Component {
 }
 ReactDOM.render(
   <React.StrictMode>
-    {/* <HomePage /> */}
+   
     <About />
     <MyProfile />
     <Portfolio />

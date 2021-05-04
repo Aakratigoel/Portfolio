@@ -559,72 +559,25 @@ font-family:'Monoton', cursive;
       overflow-x:hidden;
       padding:0;
       margin:0;
+      background-size: cover;
     }
-   #navbar{    
-            display: none;
-   }
-  #verticalnavbardiv{
-    display: block;
-    width: 100%;
-    height:100%;
-    font-size: small;
-    color:white;
-    padding-top:5%;
-  }
-   #navbutton{
-     display: block;
-     width: 100%;
-     height:20%;
-     font-size: small;
-     background-color: rgb(83, 8, 83);
-     color:white;
-     font-family: Trebuchet MS;
-     padding-top:3%;
-   }
-  #rightDiv{
-    display: grid;
-    grid-template-columns: 155px;
-    grid-template-rows:175px 175px 175px;
-    grid-gap: 20px;
-    padding: 10px;
-    position: absolute;
-    width:30%;
-    height:95%;
-    left:55%;
-    text-align: right;
-    z-index: -1;
-    padding-left:10%;
-    padding-top:0%;
-  }
-  #rightDiv .hideimage{
-    display:none;
-  }
-  .leftdivrow{
-    display: none;
-  }
-  #mainDiv{
-    height:600px;
-  }
-  #paracontent{
-    text-align: justify;
-  }
-   #clickDiv{
-     display: block;
-     width:80%;
-     font-size:60%;
-   }
    #secondDiv{
-     display: block;
-     height:500px;
+     height:100vh;
+   }
+   #myprofilediv{
+     height:100vh;
    }
   #aboutdivcontent{
-    height: 300px;
-    overflow: hidden;
-    overflow:scroll;
+    height: 100vh;
+  }
+  #mepara{
+text-align: center;
+width:100%;
+
   }
    #portfoliodiv{
      display: block;
-     height:1100px;
+     height:100vh;
      margin-bottom: 20%;
    }
    #firstrowofproject{
@@ -656,8 +609,8 @@ font-family:'Monoton', cursive;
      width:70%;
      height:50%;
    }
-  }
-  @media only screen and (min-width: 1000px) {
+  } 
+  /* @media only screen and (min-width: 1000px) {
     #navbutton{
       display: none;
     }
@@ -673,4 +626,4 @@ font-family:'Monoton', cursive;
   grid-gap:5px;
   color:white;
    }
-  }
+  } */
