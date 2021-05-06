@@ -567,12 +567,33 @@ font-family:'Monoton', cursive;
    #myprofilediv{
      height:100vh;
    }
+   #introheading{
+     font-size:220%;
+     font-family:'Monoton', cursive;
+   }
   #aboutdivcontent{
     height: 100vh;
+    margin:auto;
+  position: relative;
+  top: 120%;
+  }
+  #profileheading{
+    text-align: center;
+    color:white;
+    font-family: 'Coiny', cursive;
+    font-size:120%;
+    margin-top:5%;
+  
   }
   #mepara{
 text-align: center;
 width:100%;
+color:white;
+  text-align:center;
+  width:90%;
+  font-size:85%;
+ font-family:'Aclonica', sans-serif;;
+
 
   }
    #portfoliodiv{
@@ -580,11 +601,13 @@ width:100%;
      height:100vh;
      margin-bottom: 20%;
    }
-   #firstrowofproject{
+  
+  #firstrowofproject{
     display: grid;
-    grid-template-rows: 30% 30% 30%;
-    /* grid-template-rows: auto; */
+    grid-template-columns: 9% 9% 9%;
     height: 270px;
+    margin-top:7%;
+    margin-bottom: 7%;
   }
   #col_row{
     display: grid;
@@ -609,7 +632,8 @@ width:100%;
      width:70%;
      height:50%;
    }
-  } 
+   
+}
   /* @media only screen and (min-width: 1000px) {
     #navbutton{
       display: none;
