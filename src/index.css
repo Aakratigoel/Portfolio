@@ -368,7 +368,9 @@ font-family:'Monoton', cursive;
   margin-top:7%;
   margin-bottom: 7%;
 }
-
+#portfolioarrowdiv{
+display: none;
+}
 #projectpara{
   width:375px;
   height:275px;
@@ -424,14 +426,14 @@ position: relative;
  
   /* background-color:rgba(0, 0, 0, 0.151) */
 }
-
+/* 
 #traveltalk{
  padding-top:30%;
  padding-bottom: 30%;
  color:white;
  font-size:large;
  font-family:'Aclonica', sans-serif ;
-}
+} */
 .projectimage{
   text-align: center;
   width:375px;
@@ -441,6 +443,9 @@ position: relative;
   background-color:rgba(0, 0, 0, 0.459);
   z-index: -1;
   
+}
+#projectarrowdiv{
+ display: none;
 }
 .projectimagediv{
   text-align: center;
@@ -561,6 +566,10 @@ font-family:'Monoton', cursive;
       margin:0;
       background-size: cover;
     }
+.projectimagecontainer{
+ 
+
+}
    #secondDiv{
      height:100vh;
    }
@@ -601,18 +610,42 @@ color:white;
      height:100vh;
      margin-bottom: 20%;
    }
+   #portfolioheading{
+     padding-top:1%;
+   }
+   #shiftscheduler{
+     display: none;
+   }
+   #hangman{
+     display: none;
+   }
   
+   #projectarrowdiv{
+     display: block;
+     position: absolute;
+     left:47%;
+    
+   }
+   #projectarrow{
+    color:white;
+    font-size: 200%;
+   }
+   #contactPage{
+    height:100vh;
+   }
   #firstrowofproject{
-    display: grid;
-    grid-template-columns: 9% 9% 9%;
+    /* display: grid;
+    grid-template-columns: 9% 9% 9%; */
     height: 270px;
     margin-top:7%;
     margin-bottom: 7%;
+    margin-right: auto;
+    margin-left: auto;
   }
   #col_row{
     display: grid;
-    grid-template-rows: 270px 270px 270px;
-    grid-template-columns: 270px;
+    /* grid-template-rows: 270px 270px 270px;
+    grid-template-columns: 270px; */
     height:900px ;
     padding:10%;
     grid-row-gap:7%;

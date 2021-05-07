@@ -92,7 +92,7 @@ class Portfolio extends React.Component {
         <div className="item3" id="firstrowofproject">
           <div className="col_3_1"></div>
           <div className="col_3_2" id="col_row">
-            <div className="projectimagecontainer" >
+            <div className="projectimagecontainer" id="traveltalk">
               <img className="projectimage" src={project2} />
               <div className="projectimagediv">
                 <div className="projectdescription">
@@ -102,10 +102,11 @@ class Portfolio extends React.Component {
                   <br></br>
                   <a href="https://kylanchilders.github.io/traveltalk/" className="sitelink" target="_blank">Vist Website</a>
                 </div>
-                <p class="projectname">TravelTalk</p>
+                <p class="projectname">TravelTalk </p>
+              
               </div>
             </div>
-            <div className="projectimagecontainer">
+            <div className="projectimagecontainer" id="shiftscheduler">
 
               <img className="projectimage" src={project1} />
               <div className="projectimagediv">
@@ -117,9 +118,11 @@ class Portfolio extends React.Component {
                   <a href="https://fast-brook-71257.herokuapp.com/" className="sitelink" target="_blank">Vist Website</a>
                 </div>
                 <p class="projectname">ShiftScheduler</p>
+                
               </div>
 
             </div>
+            
             <div className="projectimagecontainer" id="hangman">
               <img className="projectimage" src={project3} />
               <div className="projectimagediv">
@@ -133,8 +136,12 @@ class Portfolio extends React.Component {
                 <p class="projectname">Hangman</p>
               </div>
             </div>
+           
           </div>
           <div className="row4 col_3_3"></div>
+        </div>
+        <div id="projectarrowdiv">
+        <a id="projectarrow" href="#portfoliodiv"><span>&#x2192;</span></a>
         </div>
         <footer id="footer3">
           <div id="arrowdiv1"><a id="arrowlink" href="#contactPage"><span>&#x25BE;</span></a></div>
