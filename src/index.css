@@ -363,7 +363,7 @@ font-family:'Monoton', cursive;
 }
 #firstrowofproject{
   display: grid;
-  grid-template-columns: 6% 88% 6%;
+  grid-template-columns: 5% 90% 6%;
   height: 270px;
   margin-top:4%;
   margin-bottom: 7%;
