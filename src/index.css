@@ -568,12 +568,12 @@ font-family:'Monoton', cursive;
       margin:0;
       background-size: cover;
     }
-   #secondDiv{
+   /* #secondDiv{
      height:100vh;
    }
    #myprofilediv{
      height:100vh;
-   }
+   } */
    #introheading{
      font-size:220%;
      font-family:'Monoton', cursive;
@@ -603,34 +603,25 @@ color:white;
 
 
   }
-   #portfoliodiv{
-     display: block;
-     height:100vh;
-     margin-bottom: 20%;
-   }
-   #portfolioheading{
-     padding-top:1%;
-   }
-
-  
-   #projectarrowdiv{
-     display: block;
-     position: absolute;
-     left:47%;
-    
-   }
-   #projectarrow{
-    color:white;
-    font-size: 200%;
-   }
-   #contactPage{
+  #portfoliodiv{
+    height:200vh;
+    display: grid;
+    grid-template-rows:2vh 3vh 40vh 40vh;
+    grid-row-gap:0vh;
+    margin-top:10vh;
+    margin-bottom:0vh;
+  }
+   /* #portfolioheading{
+    margin-top:1rem;
+   } */
+   /* #contactPage{
     height:100vh;
-   }
+   } */
   #firstrowofproject{
     /* display: grid;
     grid-template-columns: 9% 9% 9%; */
     height: 270px;
-    margin-top:7%;
+    margin-top:20vh;
     margin-bottom: 7%;
     margin-right: auto;
     margin-left: auto;
@@ -641,24 +632,26 @@ color:white;
     height:270px ;
     margin-left:auto;
     margin-right:auto;
-
   }
-  /* #col_row{
-    display: grid;
-    /* grid-template-rows: 270px 270px 270px;
-    grid-template-columns: 270px; 
-    height:900px ;
-    padding:10%;
-    grid-row-gap:7%;
-    text-align: center;
-  } 
-  
-  /* #secondrowofproject{
-    display: none;;
-  } */
+  #shiftscheduler{
+    margin-top:10%;
+  }
+  #hangman{
+    margin-top:10%;
+  }
+  #footer3{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    color:white;
+    margin-bottom:20px;
+   text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
    #contactPage{
      display: block;
-   }
+   } 
    #contactinfo{
      margin-top:10%;
    }
@@ -668,20 +661,3 @@ color:white;
    }
    
 }
-  /* @media only screen and (min-width: 1000px) {
-    #navbutton{
-      display: none;
-    }
-   #verticalnavbardiv{
-     display: none;
-   }
-   #navbar{
-     display: block;
-     position:fixed;
-  display: grid;
-  grid-template-columns: 100px 100px 135px 100px 120px;
-  grid-template-rows:50px;
-  grid-gap:5px;
-  color:white;
-   }
-  } */
