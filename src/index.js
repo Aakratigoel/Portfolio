@@ -121,7 +121,6 @@ class Portfolio extends React.Component {
               </div>
 
             </div>
-            
             <div className="projectimagecontainer" id="hangman">
               <img className="projectimage" src={project3} />
               <div className="projectimagediv">
@@ -138,9 +137,6 @@ class Portfolio extends React.Component {
            
           </div>
          
-        </div>
-        <div id="projectarrowdiv">
-        <a id="projectarrow" href="#portfoliodiv"><span>&#x2192;</span></a>
         </div>
         <footer id="footer3">
           <div id="arrowdiv1"><a id="arrowlink" href="#contactPage"><span>&#x25BE;</span></a></div>

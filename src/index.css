@@ -411,10 +411,10 @@ font-family: Trebuchet MS;
   column-gap: 5em;
   height:270px ;
 }
-#col_row1{
+/* #col_row1{
   display: grid;
   grid-template-columns: 33.25% 33.25% 33.25%;
-}
+} */
 .projectimagecontainer{
   width:375px;
   height:275px;
@@ -568,10 +568,6 @@ font-family:'Monoton', cursive;
       margin:0;
       background-size: cover;
     }
-.projectimagecontainer{
- 
-
-}
    #secondDiv{
      height:100vh;
    }
@@ -615,12 +611,7 @@ color:white;
    #portfolioheading{
      padding-top:1%;
    }
-   #shiftscheduler{
-     display: none;
-   }
-   #hangman{
-     display: none;
-   }
+
   
    #projectarrowdiv{
      display: block;
@@ -646,17 +637,25 @@ color:white;
   }
   #col_row{
     display: grid;
+    grid-template-columns: auto;
+    height:270px ;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  /* #col_row{
+    display: grid;
     /* grid-template-rows: 270px 270px 270px;
-    grid-template-columns: 270px; */
+    grid-template-columns: 270px; 
     height:900px ;
     padding:10%;
     grid-row-gap:7%;
     text-align: center;
-  }
+  } 
   
-  #secondrowofproject{
+  /* #secondrowofproject{
     display: none;;
-  }
+  } */
    #contactPage{
      display: block;
    }
