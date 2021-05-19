@@ -604,19 +604,13 @@ color:white;
 
   }
   #portfoliodiv{
-    height:200vh;
+    height:250vh;
     display: grid;
     grid-template-rows:2vh 3vh 40vh 40vh;
     grid-row-gap:0vh;
     margin-top:10vh;
     margin-bottom:0vh;
   }
-   /* #portfolioheading{
-    margin-top:1rem;
-   } */
-   /* #contactPage{
-    height:100vh;
-   } */
   #firstrowofproject{
     /* display: grid;
     grid-template-columns: 9% 9% 9%; */
@@ -641,15 +635,10 @@ color:white;
   }
   #footer3{
     position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;  
-    color:white;
-    margin-bottom:20px;
-   text-align: center;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top:365%;
   }
    #contactPage{
+   margin-bottom:15vh;
      display: block;
    } 
    #contactinfo{
