@@ -562,6 +562,9 @@ font-family:'Monoton', cursive;
 } 
   /* Responsive design with media query starts here*/
   @media only screen and (max-width: 1000px) {
+    html{
+      background-attachment:scroll;
+    }
     body{
       width:100%;
       overflow-x:hidden;
@@ -654,7 +657,62 @@ color:white;
    
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (max-width: 505px) {
+  #introheading
+{
+  color:white;
+  font-size:250%;
+  font-family:'Monoton', cursive;
 
-  
 }
+#content{
+  text-align: center;
+  padding:3%;
+}
+#aboutdivcontent{
+  margin:auto;
+  width:100%;
+  /* background-color: white; */
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+  #introheading
+{
+  color:white;
+  font-size:225%;
+  font-family:'Monoton', cursive;
+
+}
+#content{
+  text-align: center;
+  padding:3%;
+}
+#aboutdivcontent{
+  margin:auto;
+  width:100%;
+  /* background-color: white; */
+}
+
+}
+@media only screen and (max-width: 360px) {
+  #introheading
+{
+  color:white;
+  font-size:200%;
+  font-family:'Monoton', cursive;
+
+}
+#content{
+  text-align: center;
+  padding:3%;
+}
+#aboutdivcontent{
+  margin:auto;
+  width:100%;
+  /* background-color: white; */
+}
+
+}
+
