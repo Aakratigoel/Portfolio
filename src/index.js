@@ -29,7 +29,7 @@ class About extends React.Component {
           </div>
 
         </div>
-        <footer id="footer">
+        <footer id="footer" class="allfooters">
           Learn more about me
             <div><a id="arrowlink" href="#myprofilediv"><span>&#x25BE;</span></a></div>
         </footer>
@@ -71,7 +71,7 @@ class MyProfile extends React.Component {
 
           </p>
         </div>
-        <footer id="footer2">
+        <footer id="footer2" class="allfooters">
           <div id="arrowdiv"> 
           {/* My Project Work<br></br> */}
           <a id="arrowlink" href="#portfoliodiv"><span>&#x25BE;</span></a></div>
@@ -138,7 +138,7 @@ class Portfolio extends React.Component {
           </div>
          
         </div>
-        <footer id="footer3">
+        <footer id="footer3" class="allfooters">
           <div id="arrowdiv1"><a id="arrowlink" href="#contactPage"><span>&#x25BE;</span></a></div>
         </footer>
       </div>

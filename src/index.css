@@ -674,7 +674,9 @@ color:white;
   width:100%;
   /* background-color: white; */
 }
-
+.allfooters{
+  display: none;
+}
 }
 
 @media only screen and (max-width: 400px) {
@@ -694,7 +696,9 @@ color:white;
   width:100%;
   /* background-color: white; */
 }
-
+.allfooters{
+  display: none;
+}
 }
 @media only screen and (max-width: 360px) {
   #introheading
@@ -713,6 +717,38 @@ color:white;
   width:100%;
   /* background-color: white; */
 }
+.allfooters{
+  display: none;
+}
 
 }
 
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+
+  /* Styles */
+  }
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+#introheading
+{
+  color:white;
+  font-size:200%;
+  font-family:'Monoton', cursive;
+
+}
+#content{
+  text-align: center;
+  padding:3%;
+}
+#aboutdivcontent{
+  margin:auto;
+  width:100%;
+  /* background-color: white; */
+}
+.allfooters{
+  display: none;
+}
+}
