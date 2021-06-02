@@ -411,31 +411,14 @@ font-family: Trebuchet MS;
   column-gap: 5em;
   height:270px ;
 }
-/* #col_row1{
-  display: grid;
-  grid-template-columns: 33.25% 33.25% 33.25%;
-} */
+
 .projectimagecontainer{
   width:375px;
   height:275px;
-  /* background-color: white; */
-  
   border:1px solid rgba(0, 0, 0, 0.034);
   border-radius:10%;
 position: relative;
-
-
- 
-  /* background-color:rgba(0, 0, 0, 0.151) */
 }
-/* 
-#traveltalk{
- padding-top:30%;
- padding-bottom: 30%;
- color:white;
- font-size:large;
- font-family:'Aclonica', sans-serif ;
-} */
 .projectimage{
   text-align: center;
   width:375px;
@@ -561,7 +544,7 @@ font-family:'Monoton', cursive;
 
 } 
   /* Responsive design with media query starts here*/
-  @media only screen and (max-width: 1000px) {
+  /* @media only screen and (max-width: 1000px) {
     html{
       background-attachment:scroll;
     }
@@ -574,12 +557,6 @@ font-family:'Monoton', cursive;
       background-size: cover;
 
     }
-   /* #secondDiv{
-     height:100vh;
-   }
-   #myprofilediv{
-     height:100vh;
-   } */
    #introheading{
      font-size:220%;
      font-family:'Monoton', cursive;
@@ -618,8 +595,6 @@ color:white;
     margin-bottom:0vh;
   }
   #firstrowofproject{
-    /* display: grid;
-    grid-template-columns: 9% 9% 9%; */
     height: 270px;
     margin-top:20vh;
     margin-bottom: 7%;
@@ -655,9 +630,9 @@ color:white;
      height:50%;
    }
    
-}
+} */
 
-@media only screen and (max-width: 505px) {
+/* @media only screen and (max-width: 505px) {
   #introheading
 {
   color:white;
@@ -672,7 +647,6 @@ color:white;
 #aboutdivcontent{
   margin:auto;
   width:100%;
-  /* background-color: white; */
 }
 .allfooters{
   display: none;
@@ -694,13 +668,12 @@ color:white;
 #aboutdivcontent{
   margin:auto;
   width:100%;
-  /* background-color: white; */
 }
 .allfooters{
   display: none;
 }
-}
-@media only screen and (max-width: 360px) {
+} */
+/* @media only screen and (max-width: 360px) {
   #introheading
 {
   color:white;
@@ -715,40 +688,112 @@ color:white;
 #aboutdivcontent{
   margin:auto;
   width:100%;
-  /* background-color: white; */
+
 }
 .allfooters{
   display: none;
 }
 
+} */
+
+/* iPhone X, XS ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) {
+  html{
+    background-attachment:scroll;
+  }
+  body{
+    width:100%;
+    overflow-x:hidden;
+    padding:0;
+    margin:0;
+    background: url(./images/bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+  }
+  #secondDiv{ 
+    height: 100vh;
+    overflow: hidden;
+    overflow-y:hidden;
+    /* display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:150px 600px; */
+    margin-bottom:10%;
 }
+ #introheading{
+   font-size:210%;
+   font-family:'Monoton', cursive;
+ }
+ 
+#aboutdivcontent{
+  height: 100%;
+  width:100%;
+  margin:auto;
+position: relative;
+top: 175%;
+}
+#profileheading{
+  text-align: center;
+  color:white;
+  font-family: 'Coiny', cursive;
+  font-size:120%;
+  margin-top:5%;
 
-/* iPhone X ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+}
+#mepara{
+text-align: center;
+width:100%;
+color:white;
+text-align:center;
+width:90%;
+font-size:85%;
+font-family:'Aclonica', sans-serif;;
 
+
+}
+#portfoliodiv{
+  height:250vh;
+  display: grid;
+  grid-template-rows:2vh 3vh 40vh 40vh;
+  grid-row-gap:0vh;
+  margin-top:10vh;
+  margin-bottom:0vh;
+}
+#firstrowofproject{
+  height: 270px;
+  margin-top:20vh;
+  margin-bottom: 7%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#col_row{
+  display: grid;
+  grid-template-columns: auto;
+  height:270px ;
+  margin-left:auto;
+  margin-right:auto;
+}
+#shiftscheduler{
+  margin-top:10%;
+}
+#hangman{
+  margin-top:10%;
+}
+#footer3{
+  position: relative;
+  top:365%;
+}
+ #contactPage{
+ margin-bottom:15vh;
+   display: block;
+ } 
+ #contactinfo{
+   margin-top:10%;
+ }
+ #contactdetails{
+   width:70%;
+   height:50%;
+ }
   /* Styles */
   }
 
-/* iPhone XS Max, XR ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
-#introheading
-{
-  color:white;
-  font-size:200%;
-  font-family:'Monoton', cursive;
 
-}
-#content{
-  text-align: center;
-  padding:3%;
-}
-#aboutdivcontent{
-  margin:auto;
-  width:100%;
-  /* background-color: white; */
-}
-.allfooters{
-  display: none;
-}
-}
