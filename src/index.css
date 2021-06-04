@@ -717,13 +717,19 @@ color:white;
     /* display: grid;
     grid-template-columns: auto;
     grid-template-rows:150px 600px; */
-    margin-bottom:10%;
+    /* margin-bottom:10%; */
 }
  #introheading{
    font-size:210%;
    font-family:'Monoton', cursive;
  }
- 
+ #footer{
+  position: absolute;
+bottom:15%;
+}
+#spacecontent{
+  display: none;
+}
 #aboutdivcontent{
   height: 100%;
   width:100%;
@@ -731,6 +737,7 @@ color:white;
 position: relative;
 top: 175%;
 }
+
 #profileheading{
   text-align: center;
   color:white;
@@ -747,20 +754,25 @@ text-align:center;
 width:90%;
 font-size:85%;
 font-family:'Aclonica', sans-serif;;
-
-
+}
+#footer2{
+  position: relative;
+  bottom:30%;
 }
 #portfoliodiv{
   height:250vh;
   display: grid;
-  grid-template-rows:2vh 3vh 40vh 40vh;
-  grid-row-gap:0vh;
-  margin-top:10vh;
+  grid-template-rows:1vh 4vh 40vh 40vh;
+  grid-row-gap:2vh;
+  margin-top:5vh;
   margin-bottom:0vh;
+}
+#portfolioheading{
+  font-size: 120%;
 }
 #firstrowofproject{
   height: 270px;
-  margin-top:20vh;
+  margin-top:2vh;
   margin-bottom: 7%;
   margin-right: auto;
   margin-left: auto;
@@ -771,6 +783,46 @@ font-family:'Aclonica', sans-serif;;
   height:270px ;
   margin-left:auto;
   margin-right:auto;
+}
+.projectimagediv{
+  text-align: center;
+  width:250px;
+  height:170px;
+  border:1px solid rgba(0, 0, 0, 0.075);
+  border-radius:5%;
+  background-color:rgba(0, 0, 0, 0.329);
+  position: absolute;;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: background-color 0.5s ease;
+}
+.projectimagecontainer{
+  width:250px;
+  height:170px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.projectimage{
+  text-align: center;
+  width:250px;
+  height:170px;
+}
+.projectimagediv:hover .projectdescription{
+  display: block;
+  color: white;
+  font-size: small;
+  font-family: 'Aclonica', sans-serif; 
+  padding-top:20%;
+  animation: slide-left 1s;
+}
+.sitelink{
+  color: white;
+  font-size: small;
+  font-family: 'Aclonica', sans-serif; 
+  border: 3px purple solid;
+  border-radius: 10px;
+  padding:5px;
 }
 #shiftscheduler{
   margin-top:10%;

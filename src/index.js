@@ -42,7 +42,7 @@ class MyProfile extends React.Component {
   render() {
     return (
       <div id="myprofilediv">
-        <div className="item1"></div>
+        <div className="item1" id="spacecontent"></div>
         <div className="item2" id="profilecontent">
           <h2 id="profileheading">Hi, I am Aakrati. Nice to meet you.</h2>
           <br></br>
@@ -99,7 +99,7 @@ class Portfolio extends React.Component {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <a href="https://kylanchilders.github.io/traveltalk/" className="sitelink" target="_blank">Vist Website</a>
+                  <a href="https://kylanchilders.github.io/traveltalk/" className="sitelink" target="_blank">Visit Website</a>
                 </div>
                 <p class="projectname">TravelTalk </p>
               
@@ -114,7 +114,7 @@ class Portfolio extends React.Component {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <a href="https://fast-brook-71257.herokuapp.com/" className="sitelink" target="_blank">Vist Website</a>
+                  <a href="https://fast-brook-71257.herokuapp.com/" className="sitelink" target="_blank">Visit Website</a>
                 </div>
                 <p class="projectname">ShiftScheduler</p>
                 
@@ -129,7 +129,7 @@ class Portfolio extends React.Component {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <a href="https://aakratigoel.github.io/Word_Guess_Game/" className="sitelink" target="_blank">Vist Website</a>
+                  <a href="https://aakratigoel.github.io/Word_Guess_Game/" className="sitelink" target="_blank">Visit Website</a>
                 </div>
                 <p class="projectname">Hangman</p>
               </div>
