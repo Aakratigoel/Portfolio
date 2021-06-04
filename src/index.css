@@ -832,7 +832,7 @@ font-family:'Aclonica', sans-serif;;
 }
 #footer3{
   position: relative;
-  bottom:0%;
+  bottom:-80%;
 }
  #contactPage{
    height: 100vh;
